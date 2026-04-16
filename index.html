@@ -20,91 +20,133 @@ body{font-family:'Inter',system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',R
 .login-btn:hover{background:#1d4ed8}
 .login-error{color:#dc2626;font-size:.8rem;margin-top:8px;min-height:20px}
 
-/* ===== DASHBOARD (after login) ===== */
+/* ===== DASHBOARD ===== */
 .app{display:none}
 .app.visible{display:block}
 
 /* Header */
 .header{background:linear-gradient(135deg,#1e3a5f 0%,#2563eb 100%);color:#fff;padding:20px 0;position:sticky;top:0;z-index:100;box-shadow:0 2px 12px rgba(0,0,0,.15)}
-.header-inner{max-width:1400px;margin:0 auto;padding:0 24px;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:12px}
+.header-inner{max-width:1500px;margin:0 auto;padding:0 24px;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:12px}
 .header h1{font-size:1.35rem;font-weight:700;display:flex;align-items:center;gap:8px}
 .header h1 svg{width:22px;height:22px}
 .btn-logout{background:rgba(255,255,255,.15);color:#fff;border:1px solid rgba(255,255,255,.25);padding:6px 14px;border-radius:6px;font-size:.75rem;cursor:pointer;transition:background .2s}
 .btn-logout:hover{background:rgba(255,255,255,.25)}
 
 /* Stats */
-.stats{max-width:1400px;margin:-28px auto 0;padding:0 24px;position:relative;z-index:50;display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.stats{max-width:1500px;margin:-28px auto 0;padding:0 24px;position:relative;z-index:50;display:grid;grid-template-columns:repeat(4,1fr);gap:16px}
 .stat{background:#fff;border-radius:12px;padding:18px 20px;box-shadow:0 2px 8px rgba(0,0,0,.06);display:flex;align-items:center;gap:14px}
-.stat-icon{width:44px;height:44px;border-radius:10px;display:flex;align-items:center;justify-content:center;font-size:1.2rem}
+.stat-icon{width:44px;height:44px;border-radius:10px;display:flex;align-items:center;justify-content:center;font-size:1.2rem;flex-shrink:0}
 .stat-icon.total{background:#dbeafe;color:#2563eb}
-.stat-icon.applied{background:#dcfce7;color:#16a34a}
+.stat-icon.tier-a{background:#dcfce7;color:#16a34a}
+.stat-icon.applied{background:#f3e8ff;color:#7c3aed}
 .stat-icon.pending{background:#fef3c7;color:#d97706}
 .stat-info .num{font-size:1.5rem;font-weight:700;line-height:1.2}
 .stat-info .lbl{font-size:.7rem;text-transform:uppercase;letter-spacing:.06em;color:#64748b}
 
 /* Controls */
-.controls{max-width:1400px;margin:24px auto 16px;padding:0 24px}
-.controls-row{display:flex;gap:12px;align-items:center;flex-wrap:wrap;margin-bottom:12px}
+.controls{max-width:1500px;margin:24px auto 16px;padding:0 24px}
+.controls-row{display:flex;gap:10px;align-items:center;flex-wrap:wrap;margin-bottom:10px}
+.controls-label{font-size:.7rem;text-transform:uppercase;letter-spacing:.06em;color:#64748b;font-weight:600;white-space:nowrap;min-width:60px}
 .search-box{flex:1;min-width:220px;position:relative}
 .search-box input{width:100%;padding:10px 14px 10px 38px;border:1px solid #d1d5db;border-radius:8px;font-size:.875rem;background:#fff;outline:none;transition:border-color .2s,box-shadow .2s}
 .search-box input:focus{border-color:#2563eb;box-shadow:0 0 0 3px rgba(37,99,235,.1)}
 .search-box svg{position:absolute;left:12px;top:50%;transform:translateY(-50%);color:#94a3b8;width:16px;height:16px}
-.filter-pills{display:flex;gap:6px;flex-wrap:wrap}
-.pill{padding:5px 14px;border-radius:20px;border:1px solid #d1d5db;background:#fff;font-size:.72rem;cursor:pointer;transition:all .15s;font-weight:500;white-space:nowrap}
-.pill:hover{background:#f8fafc}
+.filter-pills{display:flex;gap:5px;flex-wrap:wrap;flex:1}
+.pill{padding:5px 12px;border-radius:20px;border:1px solid #d1d5db;background:#fff;font-size:.72rem;cursor:pointer;transition:all .15s;font-weight:500;white-space:nowrap;line-height:1.4}
+.pill:hover{background:#f8fafc;border-color:#94a3b8}
 .pill.active{color:#fff;border-color:transparent}
-.pill[data-cat="all"].active{background:#475569}
+
+/* Sort row */
+.sort-row{display:flex;align-items:center;gap:10px;margin-bottom:14px}
+.sort-label{font-size:.7rem;text-transform:uppercase;letter-spacing:.06em;color:#64748b;font-weight:600;white-space:nowrap}
+.sort-select{padding:5px 10px;border:1px solid #d1d5db;border-radius:6px;font-size:.78rem;background:#fff;color:#1e293b;cursor:pointer;outline:none}
+.sort-select:focus{border-color:#2563eb}
+.result-count{margin-left:auto;font-size:.78rem;color:#64748b}
 
 /* Table */
-.table-wrap{max-width:1400px;margin:0 auto;padding:0 24px 40px;overflow-x:auto}
+.table-wrap{max-width:1500px;margin:0 auto;padding:0 24px 40px;overflow-x:auto}
 table{width:100%;border-collapse:separate;border-spacing:0;background:#fff;border-radius:12px;box-shadow:0 2px 8px rgba(0,0,0,.06);overflow:hidden}
 thead{background:#f8fafc}
-th{padding:12px 16px;text-align:left;font-size:.75rem;text-transform:uppercase;letter-spacing:.05em;color:#64748b;font-weight:600;cursor:pointer;user-select:none;white-space:nowrap;border-bottom:2px solid #e2e8f0;position:relative}
+th{padding:11px 14px;text-align:left;font-size:.72rem;text-transform:uppercase;letter-spacing:.05em;color:#64748b;font-weight:600;cursor:pointer;user-select:none;white-space:nowrap;border-bottom:2px solid #e2e8f0}
 th:hover{color:#1e293b}
-th .sort-arrow{margin-left:4px;font-size:.65rem;opacity:.4}
+th .sort-arrow{margin-left:4px;font-size:.6rem;opacity:.4}
 th.sorted .sort-arrow{opacity:1;color:#2563eb}
-td{padding:12px 16px;font-size:.85rem;border-bottom:1px solid #f1f5f9;vertical-align:middle}
+td{padding:12px 14px;font-size:.82rem;border-bottom:1px solid #f1f5f9;vertical-align:middle}
 tr:last-child td{border-bottom:none}
-tr:nth-child(even){background:#fafbfc}
-tr:hover{background:#eef2ff}
-tr.applied-row{background:#f0fdf4 !important}
-tr.applied-row:hover{background:#dcfce7 !important}
+tr:nth-child(even) td{background:#fafbfc}
+tr:hover td{background:#eef2ff !important}
+tr.applied-row td{background:#f0fdf4 !important}
+tr.applied-row:hover td{background:#dcfce7 !important}
 
-/* Badges */
-.badge{display:inline-block;padding:2px 10px;border-radius:10px;font-size:.68rem;font-weight:600;color:#fff;white-space:nowrap}
-.badge-new{background:#fbbf24;color:#78350f;font-size:.6rem;margin-left:6px;padding:1px 6px}
+/* Tier badges */
+.tier-badge{display:inline-flex;align-items:center;gap:3px;padding:3px 9px;border-radius:10px;font-size:.65rem;font-weight:700;white-space:nowrap;letter-spacing:.02em}
+.tier-a{background:#dcfce7;color:#15803d}
+.tier-b{background:#fef9c3;color:#92400e}
+.tier-c{background:#f3e8ff;color:#6b21a8}
 
-/* Match strength stars */
-.stars{color:#f59e0b;letter-spacing:2px;font-size:.85rem}
-.stars .dim{color:#e2e8f0}
+/* Location badges */
+.loc-badge{display:inline-flex;align-items:center;gap:3px;padding:2px 8px;border-radius:8px;font-size:.62rem;font-weight:600;white-space:nowrap}
+.loc-nyc-onsite{background:#dcfce7;color:#15803d}
+.loc-nyc-hybrid{background:#dbeafe;color:#1d4ed8}
+.loc-remote{background:#f1f5f9;color:#475569}
 
-/* Why tooltip */
+/* Stage badges */
+.stage-badge{display:inline-block;padding:2px 8px;border-radius:8px;font-size:.62rem;font-weight:600;white-space:nowrap}
+.stage-seed{background:#fef3c7;color:#92400e}
+.stage-a{background:#dbeafe;color:#1e40af}
+.stage-b{background:#e0e7ff;color:#3730a3}
+.stage-c{background:#fce7f3;color:#9d174d}
+.stage-other{background:#f1f5f9;color:#475569}
+
+/* Category badges */
+.cat-badge{display:inline-block;padding:2px 8px;border-radius:8px;font-size:.65rem;font-weight:600;color:#fff;white-space:nowrap}
+
+/* Sector tag */
+.sector-tag{font-size:.6rem;color:#94a3b8;font-weight:500;text-transform:uppercase;letter-spacing:.04em}
+
+/* Equity dots */
+.equity-dots{display:flex;gap:3px;align-items:center}
+.dot{width:8px;height:8px;border-radius:50%;flex-shrink:0}
+.dot-filled{background:#f59e0b}
+.dot-empty{background:#e2e8f0}
+
+/* Investor line */
+.investor-line{font-size:.62rem;color:#64748b;margin-top:2px}
+
+/* NEW badge */
+.badge-new{background:#fbbf24;color:#78350f;font-size:.58rem;font-weight:700;padding:1px 6px;border-radius:8px;margin-left:5px;vertical-align:middle}
+
+/* Tooltip */
 .why-tip{position:relative;cursor:help;display:inline-block}
-.why-tip .why-text{display:none;position:absolute;bottom:120%;left:50%;transform:translateX(-50%);background:#1e293b;color:#fff;padding:8px 12px;border-radius:8px;font-size:.75rem;width:260px;line-height:1.4;z-index:200;box-shadow:0 4px 12px rgba(0,0,0,.2);text-align:left;font-weight:400}
+.why-tip .why-text{display:none;position:absolute;bottom:120%;left:50%;transform:translateX(-50%);background:#1e293b;color:#fff;padding:8px 12px;border-radius:8px;font-size:.75rem;width:270px;line-height:1.5;z-index:200;box-shadow:0 4px 12px rgba(0,0,0,.25);text-align:left;font-weight:400}
 .why-tip:hover .why-text{display:block}
 .why-tip .why-text::after{content:'';position:absolute;top:100%;left:50%;transform:translateX(-50%);border:6px solid transparent;border-top-color:#1e293b}
 
 /* Actions */
-.actions{display:flex;align-items:center;gap:8px;white-space:nowrap}
+.actions{display:flex;align-items:center;gap:7px;white-space:nowrap}
 .cb-applied{width:16px;height:16px;accent-color:#16a34a;cursor:pointer}
-.btn-del{background:none;border:1px solid #e5e7eb;border-radius:6px;width:28px;height:28px;display:flex;align-items:center;justify-content:center;cursor:pointer;color:#94a3b8;font-size:.85rem;transition:all .15s}
+.btn-del{background:none;border:1px solid #e5e7eb;border-radius:6px;width:27px;height:27px;display:flex;align-items:center;justify-content:center;cursor:pointer;color:#94a3b8;font-size:.8rem;transition:all .15s}
 .btn-del:hover{border-color:#ef4444;color:#ef4444;background:#fef2f2}
-.btn-review{background:none;border:1px solid #bfdbfe;border-radius:6px;width:28px;height:28px;display:flex;align-items:center;justify-content:center;cursor:pointer;color:#2563eb;font-size:.85rem;transition:all .15s;text-decoration:none}
+.btn-review{background:none;border:1px solid #bfdbfe;border-radius:6px;width:27px;height:27px;display:flex;align-items:center;justify-content:center;cursor:pointer;color:#2563eb;font-size:.8rem;transition:all .15s;text-decoration:none}
 .btn-review:hover{border-color:#2563eb;background:#eff6ff}
-.applied-date{font-size:.7rem;color:#16a34a;font-weight:600}
-.job-link{color:#2563eb;text-decoration:none;font-weight:500}
+.applied-date{font-size:.68rem;color:#16a34a;font-weight:600}
+.job-link{color:#1d4ed8;text-decoration:none;font-weight:600}
 .job-link:hover{text-decoration:underline}
 .date-input{padding:3px 6px;border:1px solid #d1d5db;border-radius:4px;font-size:.72rem;width:110px}
 
 .empty-msg{text-align:center;padding:48px 20px;color:#94a3b8;font-size:.95rem}
+.last-updated{font-size:.68rem;color:#94a3b8;text-align:right;padding:0 24px 8px;max-width:1500px;margin:0 auto}
 
 /* Mobile */
-@media(max-width:768px){
-  .stats{grid-template-columns:1fr;margin-top:-16px}
+@media(max-width:900px){
+  .stats{grid-template-columns:repeat(2,1fr);margin-top:-16px}
+}
+@media(max-width:600px){
+  .stats{grid-template-columns:1fr}
   .header-inner{flex-direction:column;align-items:flex-start}
   .table-wrap{padding:0 12px 24px}
   .controls{padding:0 12px}
-  td,th{padding:8px 10px;font-size:.78rem}
+  td,th{padding:8px 10px;font-size:.75rem}
 }
 </style>
 </head>
@@ -122,7 +164,7 @@ tr.applied-row:hover{background:#dcfce7 !important}
   </div>
 </div>
 
-<!-- APP (hidden until login) -->
+<!-- APP -->
 <div class="app" id="app">
   <div class="header">
     <div class="header-inner">
@@ -138,6 +180,10 @@ tr.applied-row:hover{background:#dcfce7 !important}
         <div class="stat-info"><div class="num" id="sTotal">0</div><div class="lbl">Total Jobs</div></div>
       </div>
       <div class="stat">
+        <div class="stat-icon tier-a">&#11088;</div>
+        <div class="stat-info"><div class="num" id="sTierA">0</div><div class="lbl">Tier A — Strong Fit</div></div>
+      </div>
+      <div class="stat">
         <div class="stat-icon applied">&#9989;</div>
         <div class="stat-info"><div class="num" id="sApplied">0</div><div class="lbl">Applied</div></div>
       </div>
@@ -148,20 +194,62 @@ tr.applied-row:hover{background:#dcfce7 !important}
     </div>
 
     <div class="controls">
+      <!-- Search -->
       <div class="controls-row">
         <div class="search-box">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
           <input type="text" id="searchInput" placeholder="Search by title, company, or location...">
         </div>
       </div>
-      <div class="filter-pills" id="filterPills"></div>
+
+      <!-- Tier filter -->
+      <div class="controls-row">
+        <span class="controls-label">Tier</span>
+        <div class="filter-pills" id="tierPills"></div>
+      </div>
+
+      <!-- Location filter -->
+      <div class="controls-row">
+        <span class="controls-label">Location</span>
+        <div class="filter-pills" id="locPills"></div>
+      </div>
+
+      <!-- Sector filter -->
+      <div class="controls-row">
+        <span class="controls-label">Sector</span>
+        <div class="filter-pills" id="sectorPills"></div>
+      </div>
+
+      <!-- Stage filter -->
+      <div class="controls-row">
+        <span class="controls-label">Stage</span>
+        <div class="filter-pills" id="stagePills"></div>
+      </div>
+
+      <!-- Category filter -->
+      <div class="controls-row">
+        <span class="controls-label">Category</span>
+        <div class="filter-pills" id="catPills"></div>
+      </div>
+
+      <!-- Sort + result count -->
+      <div class="sort-row">
+        <span class="sort-label">Sort by</span>
+        <select class="sort-select" id="sortSelect">
+          <option value="tier">Tier (default)</option>
+          <option value="equity">Equity Upside (highest first)</option>
+          <option value="date">Date Posted (newest first)</option>
+          <option value="company">Company A–Z</option>
+        </select>
+        <span class="result-count" id="resultCount"></span>
+      </div>
     </div>
+
+    <div class="last-updated" id="lastUpdated"></div>
 
     <div class="table-wrap">
       <table>
-        <thead>
-          <tr id="tableHead"></tr>
-        </thead>
+        <thead><tr id="tableHead"></tr></thead>
         <tbody id="tableBody"></tbody>
       </table>
       <div class="empty-msg" id="emptyMsg" style="display:none">No jobs match your filters.</div>
@@ -190,68 +278,219 @@ tr.applied-row:hover{background:#dcfce7 !important}
   /* ===== CONSTANTS ===== */
   var LS_APPLIED='sl_applied', LS_DELETED='sl_deleted', LS_SEEN='sl_seen';
 
-  var CATS=[
-    'Product Marketing',
-    'Growth Marketing',
-    'GTM Strategy',
-    'Lifecycle Marketing',
-    'Brand Marketing',
-    'Marketing Operations'
-  ];
-
-  var CAT_COLORS={
-    'Product Marketing':'#dc2626',
-    'Growth Marketing':'#16a34a',
-    'GTM Strategy':'#2563eb',
-    'Lifecycle Marketing':'#d97706',
-    'Brand Marketing':'#7c3aed',
-    'Marketing Operations':'#0284c7'
+  var TIER_CONFIG = {
+    'A': { label:'A — Strong Fit', cls:'tier-a', pillColor:'#15803d', pillBg:'#dcfce7' },
+    'B': { label:'B — Good Stretch', cls:'tier-b', pillColor:'#92400e', pillBg:'#fef9c3' },
+    'C': { label:'C — Wild Card', cls:'tier-c', pillColor:'#6b21a8', pillBg:'#f3e8ff' }
   };
 
-  var COLUMNS=[
-    {key:'Job Title',label:'Job Title',sortable:true},
-    {key:'Company',label:'Company',sortable:true},
-    {key:'Category',label:'Category',sortable:true},
-    {key:'Location',label:'Location',sortable:true},
-    {key:'Date Posted',label:'Posted',sortable:true},
-    {key:'salary',label:'Salary',sortable:false},
-    {key:'Match Strength',label:'Match',sortable:true},
-    {key:'why',label:'Why',sortable:false},
-    {key:'actions',label:'Actions',sortable:false}
+  var SECTOR_LABELS = {
+    'consumer_ai':'Consumer AI', 'consumer_tech':'Consumer Tech', 'dtc_commerce':'DTC/Commerce',
+    'subscription':'Subscription', 'consumer_fintech':'Fintech', 'consumer_health':'Health Tech',
+    'marketplace':'Marketplace', 'creator_media':'Creator/Media', 'vertical_saas':'Vertical SaaS',
+    'edtech':'EdTech', 'food_cpg':'Food/CPG', 'travel':'Travel', 'proptech_consumer':'Prop Tech',
+    'b2b2c':'B2B2C', 'physical_ai':'Physical AI', 'frontier_tech':'Frontier Tech', 'other':'Other'
+  };
+
+  var STAGE_CONFIG = {
+    'seed':   { label:'Seed',     cls:'stage-seed' },
+    'series_a':{ label:'Series A', cls:'stage-a' },
+    'series_b':{ label:'Series B', cls:'stage-b' },
+    'series_c':{ label:'Series C', cls:'stage-c' }
+  };
+
+  var CAT_COLORS = {
+    'Product Marketing':'#dc2626','Growth Marketing':'#16a34a','GTM Strategy':'#2563eb',
+    'Lifecycle Marketing':'#d97706','Brand Marketing':'#7c3aed','Marketing Operations':'#0284c7',
+    'Generalist':'#0f766e'
+  };
+
+  var LOC_CONFIG = {
+    'nyc_onsite': { label:'NYC Onsite', cls:'loc-nyc-onsite' },
+    'nyc_hybrid': { label:'NYC Hybrid', cls:'loc-nyc-hybrid' },
+    'remote':     { label:'Remote', cls:'loc-remote' }
+  };
+
+  var COLUMNS = [
+    {key:'title',    label:'Job Title',   sortable:true},
+    {key:'company',  label:'Company',     sortable:true},
+    {key:'category', label:'Category',    sortable:true},
+    {key:'location', label:'Location',    sortable:false},
+    {key:'stage',    label:'Stage',       sortable:true},
+    {key:'equity',   label:'Equity',      sortable:true},
+    {key:'salary',   label:'Salary',      sortable:false},
+    {key:'date_posted', label:'Posted',   sortable:true},
+    {key:'actions',  label:'Actions',     sortable:false}
   ];
 
-  var allJobs=[], activeCat='all', searchTerm='', sortCol='Match Strength', sortAsc=false;
+  var allJobs=[], lastUpdated='';
+  var activeTier='all', activeLoc='all', activeSector='all', activeStage='all', activeCat='all';
+  var searchTerm='', sortMode='tier';
 
-  function jk(j){ return (j['Job Title']||'')+'|||'+(j['Company']||''); }
+  function jk(j){ return (j.title||j['Job Title']||'')+'|||'+(j.company||j['Company']||''); }
   function getLS(k){ try{return JSON.parse(localStorage.getItem(k))||{};} catch(e){return {};} }
   function getLSArr(k){ try{return JSON.parse(localStorage.getItem(k))||[];} catch(e){return [];} }
   function setLS(k,v){ localStorage.setItem(k,JSON.stringify(v)); }
+  function esc(s){ if(!s) return ''; var d=document.createElement('div');d.textContent=String(s);return d.innerHTML; }
 
-  function esc(s){ var d=document.createElement('div');d.textContent=s;return d.innerHTML; }
-
-  function matchOrder(s){
-    if(!s) return 0;
-    if(s==='Strong Match'||s==='Strong') return 3;
-    if(s==='Good Match'||s==='Good') return 2;
-    if(s==='Worth Exploring'||s==='Fair') return 1;
-    return 0;
+  /* ===== NORMALIZATION — handle both old and new schema ===== */
+  function norm(j){
+    // Support old schema field names alongside new ones
+    return {
+      title:          j.title || j['Job Title'] || '',
+      company:        j.company || j['Company'] || '',
+      category:       j.category || j['Category'] || '',
+      location:       j.location || j['Location'] || '',
+      location_type:  j.location_type || guessLocType(j.location || j['Location'] || ''),
+      date_posted:    j.date_posted || j['Date Posted'] || '',
+      salary_low:     j.salary_low != null ? j.salary_low : parseSalary(j['Salary Low End']),
+      salary_high:    j.salary_high != null ? j.salary_high : parseSalary(j['Salary High End']),
+      url:            j.url || j['Direct URL'] || '',
+      source:         j.source || j['Source'] || '',
+      sector:         j.sector || '',
+      tier:           j.tier || guessTier(j.sector || ''),
+      stage:          j.stage || '',
+      last_raised:    j.last_raised || '',
+      investor_signal:j.investor_signal || [],
+      employee_count: j.employee_count || null,
+      equity_upside_score: j.equity_upside_score || 0,
+      verified_at:    j.verified_at || ''
+    };
   }
 
-  function starsHTML(strength){
-    if(!strength) return '';
-    var n=matchOrder(strength);
-    var label=strength;
-    var h='';
-    for(var i=0;i<3;i++) h+='<span class="'+(i<n?'':'dim')+'">&#9733;</span>';
-    return '<span class="stars" title="'+esc(label)+'">'+h+'</span>';
+  function parseSalary(s){
+    if(!s||s==='Not Listed'||s==='N/A') return null;
+    var n=parseInt(String(s).replace(/[^0-9]/g,''));
+    return isNaN(n)?null:n;
   }
 
-  function salaryStr(j){
-    var lo=j['Salary Low End']||'Not Listed', hi=j['Salary High End']||'Not Listed';
-    if(lo==='Not Listed'&&hi==='Not Listed') return '<span style="color:#94a3b8">--</span>';
-    if(lo==='Not Listed') return 'Up to '+esc(hi);
-    if(hi==='Not Listed') return 'From '+esc(lo);
-    return esc(lo)+' - '+esc(hi);
+  function guessLocType(loc){
+    var l=(loc||'').toLowerCase();
+    if(l.indexOf('new york')!==-1||l.indexOf('nyc')!==-1||l.indexOf('brooklyn')!==-1){
+      if(l.indexOf('remote')!==-1||l.indexOf('hybrid')!==-1) return 'nyc_hybrid';
+      return 'nyc_onsite';
+    }
+    if(l.indexOf('remote')!==-1) return 'remote';
+    return 'remote';
+  }
+
+  function guessTier(sector){
+    var tierA=['consumer_ai','consumer_tech','dtc_commerce','subscription','consumer_fintech','consumer_health','marketplace','creator_media'];
+    var tierB=['vertical_saas','edtech','food_cpg','travel','proptech_consumer','b2b2c'];
+    if(tierA.indexOf(sector)!==-1) return 'A';
+    if(tierB.indexOf(sector)!==-1) return 'B';
+    return 'C';
+  }
+
+  /* ===== SORT ===== */
+  function locPriority(lt){
+    if(lt==='nyc_onsite') return 0;
+    if(lt==='nyc_hybrid') return 1;
+    return 2;
+  }
+
+  function tierPriority(t){ return t==='A'?0:t==='B'?1:2; }
+
+  function sortJobs(arr){
+    return arr.slice().sort(function(a,b){
+      if(sortMode==='tier'){
+        var td=tierPriority(a.tier)-tierPriority(b.tier);
+        if(td!==0) return td;
+        var ed=(b.equity_upside_score||0)-(a.equity_upside_score||0);
+        if(ed!==0) return ed;
+        var ld=locPriority(a.location_type)-locPriority(b.location_type);
+        if(ld!==0) return ld;
+        return (b.date_posted||'').localeCompare(a.date_posted||'');
+      }
+      if(sortMode==='equity'){
+        var ed2=(b.equity_upside_score||0)-(a.equity_upside_score||0);
+        if(ed2!==0) return ed2;
+        return tierPriority(a.tier)-tierPriority(b.tier);
+      }
+      if(sortMode==='date'){
+        return (b.date_posted||'').localeCompare(a.date_posted||'');
+      }
+      if(sortMode==='company'){
+        return (a.company||'').localeCompare(b.company||'');
+      }
+      return 0;
+    });
+  }
+
+  /* ===== BUILD FILTER PILLS ===== */
+  function makePill(container, value, label, isActive, color, bg, onClick){
+    var btn=document.createElement('button');
+    btn.className='pill'+(isActive?' active':'');
+    btn.textContent=label;
+    if(isActive && color){
+      btn.style.background=bg||color;
+      btn.style.borderColor=color;
+      btn.style.color=isActive?(bg?color:'#fff'):'';
+    }
+    btn.addEventListener('click', onClick);
+    container.appendChild(btn);
+  }
+
+  function buildTierPills(){
+    var c=document.getElementById('tierPills'); c.innerHTML='';
+    makePill(c,'all','All Tiers',activeTier==='all','#475569','#f1f5f9',function(){activeTier='all';buildAllPills();render();});
+    Object.keys(TIER_CONFIG).forEach(function(t){
+      var cfg=TIER_CONFIG[t];
+      makePill(c,t,'Tier '+cfg.label,activeTier===t,cfg.pillColor,cfg.pillBg,function(){activeTier=t;buildAllPills();render();});
+    });
+  }
+
+  function buildLocPills(){
+    var c=document.getElementById('locPills'); c.innerHTML='';
+    makePill(c,'all','All Locations',activeLoc==='all','#475569','#f1f5f9',function(){activeLoc='all';buildAllPills();render();});
+    Object.keys(LOC_CONFIG).forEach(function(lt){
+      var cfg=LOC_CONFIG[lt];
+      makePill(c,lt,cfg.label,activeLoc===lt,'#1d4ed8','#dbeafe',function(){activeLoc=lt;buildAllPills();render();});
+    });
+  }
+
+  function buildSectorPills(){
+    var c=document.getElementById('sectorPills'); c.innerHTML='';
+    var present={};
+    allJobs.forEach(function(j){if(j.sector) present[j.sector]=true;});
+    makePill(c,'all','All',activeSector==='all','#475569','#f1f5f9',function(){activeSector='all';buildAllPills();render();});
+    Object.keys(SECTOR_LABELS).forEach(function(s){
+      if(!present[s]) return;
+      makePill(c,s,SECTOR_LABELS[s],activeSector===s,'#475569','#f1f5f9',function(){activeSector=s;buildAllPills();render();});
+    });
+  }
+
+  function buildStagePills(){
+    var c=document.getElementById('stagePills'); c.innerHTML='';
+    var present={};
+    allJobs.forEach(function(j){if(j.stage) present[j.stage]=true;});
+    makePill(c,'all','All Stages',activeStage==='all','#475569','#f1f5f9',function(){activeStage='all';buildAllPills();render();});
+    ['seed','series_a','series_b','series_c'].forEach(function(s){
+      if(!present[s]) return;
+      var cfg=STAGE_CONFIG[s]||{label:s,cls:'stage-other'};
+      makePill(c,s,cfg.label,activeStage===s,'#475569','#f1f5f9',function(){activeStage=s;buildAllPills();render();});
+    });
+  }
+
+  function buildCatPills(){
+    var c=document.getElementById('catPills'); c.innerHTML='';
+    var present={};
+    allJobs.forEach(function(j){if(j.category) present[j.category]=true;});
+    makePill(c,'all','All',activeCat==='all','#475569','#f1f5f9',function(){activeCat='all';buildAllPills();render();});
+    var cats=['Product Marketing','Growth Marketing','GTM Strategy','Lifecycle Marketing','Brand Marketing','Marketing Operations','Generalist'];
+    cats.forEach(function(cat){
+      if(!present[cat]) return;
+      var color=CAT_COLORS[cat]||'#475569';
+      makePill(c,cat,cat.replace(' Marketing','').replace('GTM Strategy','GTM').replace('Marketing Operations','Ops'),activeCat===cat,color,'#f8fafc',function(){activeCat=cat;buildAllPills();render();});
+    });
+  }
+
+  function buildAllPills(){
+    buildTierPills();
+    buildLocPills();
+    buildSectorPills();
+    buildStagePills();
+    buildCatPills();
   }
 
   /* ===== BUILD HEAD ===== */
@@ -260,51 +499,33 @@ tr.applied-row:hover{background:#dcfce7 !important}
     tr.innerHTML='';
     COLUMNS.forEach(function(c){
       var th=document.createElement('th');
-      th.textContent=c.label;
-      if(c.sortable){
-        var arrow=document.createElement('span');
-        arrow.className='sort-arrow';
-        arrow.textContent= sortCol===c.key?(sortAsc?'\u25B2':'\u25BC'):'\u25BC';
-        th.appendChild(arrow);
-        if(sortCol===c.key) th.classList.add('sorted');
-        th.addEventListener('click', function(){
-          if(sortCol===c.key) sortAsc=!sortAsc;
-          else{ sortCol=c.key; sortAsc=true; }
-          render();
-        });
+      if(c.key==='equity'){
+        th.textContent='Equity';
+        th.title='Equity upside score 1-5';
+      } else {
+        th.textContent=c.label;
       }
       tr.appendChild(th);
     });
-    var thApp=document.createElement('th');
-    thApp.textContent='Applied Date';
-    tr.appendChild(thApp);
+    var thApp=document.createElement('th'); thApp.textContent='Applied'; tr.appendChild(thApp);
   }
 
-  /* ===== FILTERS ===== */
-  function buildFilters(){
-    var bar=document.getElementById('filterPills');
-    bar.innerHTML='';
-    var allBtn=document.createElement('button');
-    allBtn.className='pill'+(activeCat==='all'?' active':'');
-    allBtn.dataset.cat='all';
-    allBtn.textContent='All';
-    allBtn.addEventListener('click',function(){activeCat='all';render();buildFilters();});
-    bar.appendChild(allBtn);
+  /* ===== EQUITY DOTS ===== */
+  function equityDots(score){
+    var html='<div class="equity-dots">';
+    for(var i=1;i<=5;i++) html+='<div class="dot '+(i<=score?'dot-filled':'dot-empty')+'"></div>';
+    html+='</div>';
+    return html;
+  }
 
-    var catsInData={};
-    allJobs.forEach(function(j){ if(j['Category']) catsInData[j['Category']]=true; });
-
-    CATS.forEach(function(cat){
-      if(!catsInData[cat]) return;
-      var btn=document.createElement('button');
-      btn.className='pill'+(activeCat===cat?' active':'');
-      btn.dataset.cat=cat;
-      btn.textContent=cat;
-      var color=CAT_COLORS[cat]||'#475569';
-      if(activeCat===cat){btn.style.background=color;btn.style.borderColor=color;btn.style.color='#fff';}
-      btn.addEventListener('click',function(){activeCat=cat;render();buildFilters();});
-      bar.appendChild(btn);
-    });
+  /* ===== SALARY ===== */
+  function salaryStr(j){
+    var lo=j.salary_low, hi=j.salary_high;
+    if(!lo&&!hi) return '<span style="color:#94a3b8">—</span>';
+    var fmt=function(n){ return '$'+(n>=1000?(n/1000).toFixed(0)+'K':n); };
+    if(!lo) return 'Up to '+fmt(hi);
+    if(!hi) return 'From '+fmt(lo);
+    return fmt(lo)+' – '+fmt(hi);
   }
 
   /* ===== RENDER ===== */
@@ -316,29 +537,25 @@ tr.applied-row:hover{background:#dcfce7 !important}
     var applied=getLS(LS_APPLIED);
     var seen=getLSArr(LS_SEEN);
 
-    var vis=allJobs.filter(function(j){return deleted.indexOf(jk(j))===-1;});
-    if(activeCat!=='all') vis=vis.filter(function(j){return j['Category']===activeCat;});
+    var vis=allJobs.filter(function(j){ return deleted.indexOf(jk(j))===-1; });
+    if(activeTier!=='all')   vis=vis.filter(function(j){ return j.tier===activeTier; });
+    if(activeLoc!=='all')    vis=vis.filter(function(j){ return j.location_type===activeLoc; });
+    if(activeSector!=='all') vis=vis.filter(function(j){ return j.sector===activeSector; });
+    if(activeStage!=='all')  vis=vis.filter(function(j){ return j.stage===activeStage; });
+    if(activeCat!=='all')    vis=vis.filter(function(j){ return j.category===activeCat; });
     if(searchTerm){
       var q=searchTerm.toLowerCase();
       vis=vis.filter(function(j){
-        return (j['Job Title']||'').toLowerCase().indexOf(q)!==-1||
-               (j['Company']||'').toLowerCase().indexOf(q)!==-1||
-               (j['Location']||'').toLowerCase().indexOf(q)!==-1;
+        return (j.title||'').toLowerCase().indexOf(q)!==-1||
+               (j.company||'').toLowerCase().indexOf(q)!==-1||
+               (j.location||'').toLowerCase().indexOf(q)!==-1||
+               (j.sector||'').toLowerCase().indexOf(q)!==-1;
       });
     }
 
-    vis.sort(function(a,b){
-      var va=a[sortCol]||'', vb=b[sortCol]||'';
-      if(sortCol==='Match Strength'){
-        va=matchOrder(va); vb=matchOrder(vb);
-      }
-      if(va===vb) return 0;
-      if(!va||va==='Not Listed'||va==='N/A') return 1;
-      if(!vb||vb==='Not Listed'||vb==='N/A') return -1;
-      if(typeof va==='number') return sortAsc?va-vb:vb-va;
-      return sortAsc?va.localeCompare(vb):vb.localeCompare(va);
-    });
+    vis=sortJobs(vis);
 
+    document.getElementById('resultCount').textContent=vis.length+' job'+(vis.length===1?'':'s');
     document.getElementById('emptyMsg').style.display=vis.length===0?'block':'none';
 
     vis.forEach(function(j){
@@ -352,54 +569,68 @@ tr.applied-row:hover{background:#dcfce7 !important}
 
       // Job Title
       var td1=document.createElement('td');
-      var url=j['Direct URL']&&j['Direct URL']!=='N/A'&&j['Direct URL']!=='Not Listed'?j['Direct URL']:'';
-      if(url) td1.innerHTML='<a class="job-link" href="'+esc(url)+'" target="_blank" rel="noopener">'+esc(j['Job Title']||'Untitled')+'</a>';
-      else td1.textContent=j['Job Title']||'Untitled';
-      if(isNew) td1.innerHTML+=' <span class="badge badge-new">NEW</span>';
+      var url=j.url||'';
+      var titleHtml=url
+        ?'<a class="job-link" href="'+esc(url)+'" target="_blank" rel="noopener">'+esc(j.title)+'</a>'
+        :'<span style="font-weight:600">'+esc(j.title)+'</span>';
+      if(isNew) titleHtml+=' <span class="badge-new">NEW</span>';
+      // Tier badge
+      var tierCfg=TIER_CONFIG[j.tier]||{label:j.tier||'?',cls:'tier-c'};
+      titleHtml+='<br><span class="tier-badge '+tierCfg.cls+'" style="margin-top:4px;display:inline-flex">Tier '+esc(j.tier||'?')+'</span>';
+      td1.innerHTML=titleHtml;
       tr.appendChild(td1);
 
-      // Company
+      // Company + investors
       var td2=document.createElement('td');
-      td2.textContent=j['Company']||'';
+      var compHtml='<span style="font-weight:600">'+esc(j.company)+'</span>';
+      if(j.investor_signal&&j.investor_signal.length){
+        var top2=j.investor_signal.slice(0,2).join(', ');
+        compHtml+='<div class="investor-line">'+esc(top2)+'</div>';
+      }
+      if(j.sector){
+        compHtml+='<div class="sector-tag">'+esc(SECTOR_LABELS[j.sector]||j.sector)+'</div>';
+      }
+      td2.innerHTML=compHtml;
       tr.appendChild(td2);
 
       // Category
       var td3=document.createElement('td');
-      var catColor=CAT_COLORS[j['Category']]||'#475569';
-      td3.innerHTML='<span class="badge" style="background:'+catColor+'">'+esc(j['Category']||'')+'</span>';
+      var catColor=CAT_COLORS[j.category]||'#475569';
+      td3.innerHTML='<span class="cat-badge" style="background:'+catColor+'">'+esc(j.category||'')+'</span>';
       tr.appendChild(td3);
 
-      // Location
+      // Location + type badge
       var td4=document.createElement('td');
-      td4.textContent=j['Location']||'';
+      var locCfg=LOC_CONFIG[j.location_type]||{label:'',cls:'loc-remote'};
+      var locHtml='<span class="loc-badge '+locCfg.cls+'">'+locCfg.label+'</span>';
+      if(j.location) locHtml+='<div style="font-size:.68rem;color:#64748b;margin-top:3px">'+esc(j.location)+'</div>';
+      td4.innerHTML=locHtml;
       tr.appendChild(td4);
 
-      // Date
+      // Stage
       var td5=document.createElement('td');
-      td5.textContent=j['Date Posted']||'';
+      var stageCfg=STAGE_CONFIG[j.stage]||{label:(j.stage||'').replace('_',' '),cls:'stage-other'};
+      td5.innerHTML='<span class="stage-badge '+stageCfg.cls+'">'+esc(stageCfg.label)+'</span>';
       tr.appendChild(td5);
 
-      // Salary
+      // Equity
       var td6=document.createElement('td');
-      td6.innerHTML=salaryStr(j);
+      td6.innerHTML=equityDots(j.equity_upside_score||0);
       tr.appendChild(td6);
 
-      // Match Strength
+      // Salary
       var td7=document.createElement('td');
-      td7.innerHTML=starsHTML(j['Match Strength']);
+      td7.innerHTML=salaryStr(j);
       tr.appendChild(td7);
 
-      // Why This Matches
+      // Date
       var td8=document.createElement('td');
-      var why=j['Why This Matches']||'';
-      if(why){
-        td8.innerHTML='<span class="why-tip">&#128161;<span class="why-text">'+esc(why)+'</span></span>';
-      }
+      td8.textContent=j.date_posted||'';
       tr.appendChild(td8);
 
       // Actions
       var td9=document.createElement('td');
-      var reviewUrl='resume-reviewer.html?job_title='+encodeURIComponent(j['Job Title']||'')+'&company='+encodeURIComponent(j['Company']||'')+'&job_url='+encodeURIComponent(j['Direct URL']||'')+'&category='+encodeURIComponent(j['Category']||'');
+      var reviewUrl='resume-reviewer.html?job_title='+encodeURIComponent(j.title||'')+'&company='+encodeURIComponent(j.company||'')+'&job_url='+encodeURIComponent(j.url||'')+'&category='+encodeURIComponent(j.category||'');
       td9.innerHTML='<div class="actions">'+
         '<input type="checkbox" class="cb-applied" '+(isApplied?'checked':'')+' title="Mark as Applied">'+
         (!isApplied?'<input type="date" class="date-input" style="display:none">':'')+
@@ -408,7 +639,7 @@ tr.applied-row:hover{background:#dcfce7 !important}
         '</div>';
       tr.appendChild(td9);
 
-      // Applied Date col
+      // Applied Date
       var td10=document.createElement('td');
       if(isApplied) td10.innerHTML='<span class="applied-date">'+esc(appliedDate)+'</span>';
       tr.appendChild(td10);
@@ -426,12 +657,9 @@ tr.applied-row:hover{background:#dcfce7 !important}
               a[key]=dateIn.value||new Date().toISOString().slice(0,10);
               setLS(LS_APPLIED,a); render();
             },{once:true});
-            setTimeout(function(){
-              if(!a[key]){a[key]=new Date().toISOString().slice(0,10);setLS(LS_APPLIED,a);render();}
-            },8000);
+            setTimeout(function(){ if(!a[key]){a[key]=new Date().toISOString().slice(0,10);setLS(LS_APPLIED,a);render();} },8000);
           } else {
-            a[key]=new Date().toISOString().slice(0,10);
-            setLS(LS_APPLIED,a); render();
+            a[key]=new Date().toISOString().slice(0,10); setLS(LS_APPLIED,a); render();
           }
         } else {
           delete a[key]; setLS(LS_APPLIED,a); render();
@@ -450,30 +678,40 @@ tr.applied-row:hover{background:#dcfce7 !important}
     // Stats
     var nonDel=allJobs.filter(function(j){return deleted.indexOf(jk(j))===-1;});
     var appCount=nonDel.filter(function(j){return !!applied[jk(j)];}).length;
+    var tierACount=nonDel.filter(function(j){return j.tier==='A';}).length;
     document.getElementById('sTotal').textContent=nonDel.length;
+    document.getElementById('sTierA').textContent=tierACount;
     document.getElementById('sApplied').textContent=appCount;
     document.getElementById('sPending').textContent=nonDel.length-appCount;
   }
 
-  document.getElementById('searchInput').addEventListener('input',function(e){
-    searchTerm=e.target.value; render();
-  });
+  document.getElementById('searchInput').addEventListener('input',function(e){ searchTerm=e.target.value; render(); });
+  document.getElementById('sortSelect').addEventListener('change',function(e){ sortMode=e.target.value; render(); });
 
-  function markSeen(){
-    var keys=allJobs.map(jk);
-    setLS(LS_SEEN,keys);
-  }
+  function markSeen(){ setLS(LS_SEEN, allJobs.map(jk)); }
 
   function loadData(){
-    fetch('jobs.json').then(function(r){return r.json();}).then(function(data){
-      allJobs=Array.isArray(data)?data:[];
-      buildFilters(); render();
-      setTimeout(markSeen,5000);
+    fetch('jobs.json?v='+Date.now()).then(function(r){return r.json();}).then(function(data){
+      // Handle both new schema (object with .jobs) and old schema (flat array)
+      if(Array.isArray(data)){
+        allJobs=data.map(norm);
+        lastUpdated='';
+      } else {
+        allJobs=(data.jobs||[]).map(norm);
+        lastUpdated=data.last_updated||'';
+      }
+      if(lastUpdated){
+        var d=new Date(lastUpdated);
+        document.getElementById('lastUpdated').textContent='Last updated: '+d.toLocaleDateString('en-US',{month:'long',day:'numeric',year:'numeric'});
+      }
+      buildAllPills();
+      render();
+      setTimeout(markSeen, 5000);
     }).catch(function(err){
       console.error('Failed to load jobs.json:',err);
       document.getElementById('emptyMsg').style.display='block';
-      document.getElementById('emptyMsg').textContent='Could not load jobs.json. Make sure the file exists in the same directory.';
-      buildFilters();
+      document.getElementById('emptyMsg').textContent='Could not load jobs.json.';
+      buildAllPills();
     });
   }
 })();
