@@ -1,66 +1,6 @@
 {
-  "last_updated": "2026-04-15T07:35:00Z",
+  "last_updated": "2026-04-16T11:31:35.433Z",
   "jobs": [
-    {
-      "title": "Braze Lifecycle Manager (AI)",
-      "company": "Maven Clinic",
-      "category": "Lifecycle Marketing",
-      "location": "New York, NY (Remote eligible — hub cities)",
-      "location_type": "nyc_hybrid",
-      "date_posted": "2026-04-01",
-      "salary_low": 115000,
-      "salary_high": 135000,
-      "url": "https://job-boards.greenhouse.io/mavenclinic/jobs/8500217002",
-      "source": "Greenhouse",
-      "sector": "consumer_health",
-      "tier": "A",
-      "stage": "series_c",
-      "last_raised": "2023",
-      "investor_signal": ["Sequoia", "General Catalyst", "Oak HC/FT"],
-      "employee_count": 500,
-      "equity_upside_score": 3,
-      "verified_at": "2026-04-15T07:20:00Z"
-    },
-    {
-      "title": "Director of GTM Narrative",
-      "company": "Maven Clinic",
-      "category": "GTM Strategy",
-      "location": "New York, NY (Remote eligible — hub cities)",
-      "location_type": "nyc_hybrid",
-      "date_posted": "2026-03-15",
-      "salary_low": 180000,
-      "salary_high": 210000,
-      "url": "https://job-boards.greenhouse.io/mavenclinic/jobs/8459432002",
-      "source": "Greenhouse",
-      "sector": "consumer_health",
-      "tier": "A",
-      "stage": "series_c",
-      "last_raised": "2023",
-      "investor_signal": ["Sequoia", "General Catalyst", "Oak HC/FT"],
-      "employee_count": 500,
-      "equity_upside_score": 3,
-      "verified_at": "2026-04-15T07:20:00Z"
-    },
-    {
-      "title": "Customer Marketing Manager",
-      "company": "Maven Clinic",
-      "category": "Lifecycle Marketing",
-      "location": "New York, NY (Hybrid)",
-      "location_type": "nyc_hybrid",
-      "date_posted": "2025-11-01",
-      "salary_low": null,
-      "salary_high": null,
-      "url": "https://boards.greenhouse.io/mavenclinic/jobs/5776321002",
-      "source": "Greenhouse",
-      "sector": "consumer_health",
-      "tier": "A",
-      "stage": "series_c",
-      "last_raised": "2023",
-      "investor_signal": ["Sequoia", "General Catalyst", "Oak HC/FT"],
-      "employee_count": 500,
-      "equity_upside_score": 3,
-      "verified_at": "2026-04-15T07:20:00Z"
-    },
     {
       "title": "Product Marketing Manager, Member Engagement",
       "company": "Chime",
@@ -76,7 +16,11 @@
       "tier": "A",
       "stage": "series_g",
       "last_raised": "2021",
-      "investor_signal": ["Sequoia", "SoftBank", "Forerunner Ventures"],
+      "investor_signal": [
+        "Sequoia",
+        "SoftBank",
+        "Forerunner Ventures"
+      ],
       "employee_count": 1200,
       "equity_upside_score": 2,
       "verified_at": "2026-04-15T07:20:00Z"
@@ -96,7 +40,11 @@
       "tier": "A",
       "stage": "series_g",
       "last_raised": "2021",
-      "investor_signal": ["Sequoia", "SoftBank", "Forerunner Ventures"],
+      "investor_signal": [
+        "Sequoia",
+        "SoftBank",
+        "Forerunner Ventures"
+      ],
       "employee_count": 1200,
       "equity_upside_score": 2,
       "verified_at": "2026-04-15T07:20:00Z"
@@ -116,90 +64,14 @@
       "tier": "A",
       "stage": "series_g",
       "last_raised": "2021",
-      "investor_signal": ["Sequoia", "SoftBank", "Forerunner Ventures"],
+      "investor_signal": [
+        "Sequoia",
+        "SoftBank",
+        "Forerunner Ventures"
+      ],
       "employee_count": 1200,
       "equity_upside_score": 2,
       "verified_at": "2026-04-15T07:20:00Z"
-    },
-    {
-      "title": "Lifecycle Marketing Manager (Remote)",
-      "company": "Rula",
-      "category": "Lifecycle Marketing",
-      "location": "Remote, US",
-      "location_type": "remote",
-      "date_posted": "2026-03-20",
-      "salary_low": null,
-      "salary_high": null,
-      "url": "https://jobs.ashbyhq.com/rula/a9c4a3e4-0868-448e-a97d-137ff8aff801",
-      "source": "Ashby",
-      "sector": "consumer_health",
-      "tier": "A",
-      "stage": "series_c",
-      "last_raised": "2024",
-      "investor_signal": ["a16z", "Forerunner Ventures", "SignalFire"],
-      "employee_count": 300,
-      "equity_upside_score": 4,
-      "verified_at": "2026-04-15T07:22:00Z"
-    },
-    {
-      "title": "Director of Lifecycle Marketing (Remote)",
-      "company": "Rula",
-      "category": "Lifecycle Marketing",
-      "location": "Remote, US",
-      "location_type": "remote",
-      "date_posted": "2026-03-20",
-      "salary_low": null,
-      "salary_high": null,
-      "url": "https://jobs.ashbyhq.com/rula/568f2176-859e-47b9-a353-c04a47b2c01e",
-      "source": "Ashby",
-      "sector": "consumer_health",
-      "tier": "A",
-      "stage": "series_c",
-      "last_raised": "2024",
-      "investor_signal": ["a16z", "Forerunner Ventures", "SignalFire"],
-      "employee_count": 300,
-      "equity_upside_score": 4,
-      "verified_at": "2026-04-15T07:22:00Z"
-    },
-    {
-      "title": "Sr. Content & Social Marketing Manager (Remote)",
-      "company": "Rula",
-      "category": "Brand Marketing",
-      "location": "Remote, US",
-      "location_type": "remote",
-      "date_posted": "2026-03-15",
-      "salary_low": null,
-      "salary_high": null,
-      "url": "https://jobs.ashbyhq.com/rula/2c98d92c-3d21-483c-90cf-0aa650912959",
-      "source": "Ashby",
-      "sector": "consumer_health",
-      "tier": "A",
-      "stage": "series_c",
-      "last_raised": "2024",
-      "investor_signal": ["a16z", "Forerunner Ventures", "SignalFire"],
-      "employee_count": 300,
-      "equity_upside_score": 4,
-      "verified_at": "2026-04-15T07:22:00Z"
-    },
-    {
-      "title": "Senior Growth Marketing Manager — B2B Partnerships (Remote)",
-      "company": "Rula",
-      "category": "Growth Marketing",
-      "location": "Remote, US",
-      "location_type": "remote",
-      "date_posted": "2026-03-20",
-      "salary_low": null,
-      "salary_high": null,
-      "url": "https://jobs.ashbyhq.com/rula/cd8d4119-06df-48eb-87f5-1d5fe1ee5da4",
-      "source": "Ashby",
-      "sector": "consumer_health",
-      "tier": "A",
-      "stage": "series_c",
-      "last_raised": "2024",
-      "investor_signal": ["a16z", "Forerunner Ventures", "SignalFire"],
-      "employee_count": 300,
-      "equity_upside_score": 4,
-      "verified_at": "2026-04-15T07:22:00Z"
     },
     {
       "title": "Growth Marketing Leader, New Products",
@@ -216,7 +88,11 @@
       "tier": "A",
       "stage": "series_c",
       "last_raised": "2023",
-      "investor_signal": ["TCV", "Wells Fargo Strategic Capital", "NEA"],
+      "investor_signal": [
+        "TCV",
+        "Wells Fargo Strategic Capital",
+        "NEA"
+      ],
       "employee_count": 400,
       "equity_upside_score": 4,
       "verified_at": "2026-04-15T07:22:00Z"
@@ -236,7 +112,11 @@
       "tier": "A",
       "stage": "series_c",
       "last_raised": "2023",
-      "investor_signal": ["TCV", "Wells Fargo Strategic Capital", "NEA"],
+      "investor_signal": [
+        "TCV",
+        "Wells Fargo Strategic Capital",
+        "NEA"
+      ],
       "employee_count": 400,
       "equity_upside_score": 4,
       "verified_at": "2026-04-15T07:22:00Z"
@@ -256,49 +136,13 @@
       "tier": "A",
       "stage": "series_c",
       "last_raised": "2023",
-      "investor_signal": ["TCV", "Wells Fargo Strategic Capital", "NEA"],
+      "investor_signal": [
+        "TCV",
+        "Wells Fargo Strategic Capital",
+        "NEA"
+      ],
       "employee_count": 400,
       "equity_upside_score": 4,
-      "verified_at": "2026-04-15T07:22:00Z"
-    },
-    {
-      "title": "Lifecycle Marketing Manager (Growth)",
-      "company": "WHOOP",
-      "category": "Lifecycle Marketing",
-      "location": "Boston, MA (Hybrid)",
-      "location_type": "remote",
-      "date_posted": "2026-01-09",
-      "salary_low": null,
-      "salary_high": null,
-      "url": "https://jobs.lever.co/whoop/6c2ac065-fce2-46b4-afc2-307ff71dbc63",
-      "source": "Lever",
-      "sector": "consumer_health",
-      "tier": "A",
-      "stage": "series_f",
-      "last_raised": "2022",
-      "investor_signal": ["SoftBank", "Accomplice", "NextView Ventures"],
-      "employee_count": 800,
-      "equity_upside_score": 2,
-      "verified_at": "2026-04-15T07:22:00Z"
-    },
-    {
-      "title": "Senior Director, Growth Marketing",
-      "company": "WHOOP",
-      "category": "Growth Marketing",
-      "location": "Boston, MA (Hybrid)",
-      "location_type": "remote",
-      "date_posted": "2026-01-29",
-      "salary_low": null,
-      "salary_high": null,
-      "url": "https://jobs.lever.co/whoop/1a89caa7-e42b-4cf6-845c-97822532c228",
-      "source": "Lever",
-      "sector": "consumer_health",
-      "tier": "A",
-      "stage": "series_f",
-      "last_raised": "2022",
-      "investor_signal": ["SoftBank", "Accomplice", "NextView Ventures"],
-      "employee_count": 800,
-      "equity_upside_score": 2,
       "verified_at": "2026-04-15T07:22:00Z"
     },
     {
@@ -316,7 +160,9 @@
       "tier": "A",
       "stage": "series_b",
       "last_raised": "2021",
-      "investor_signal": ["a16z"],
+      "investor_signal": [
+        "a16z"
+      ],
       "employee_count": 100,
       "equity_upside_score": 4,
       "verified_at": "2026-04-15T07:25:00Z"
@@ -336,7 +182,10 @@
       "tier": "B",
       "stage": "series_c",
       "last_raised": "2023",
-      "investor_signal": ["Bessemer Venture Partners", "Imaginary Ventures"],
+      "investor_signal": [
+        "Bessemer Venture Partners",
+        "Imaginary Ventures"
+      ],
       "employee_count": 200,
       "equity_upside_score": 3,
       "verified_at": "2026-04-15T07:25:00Z"
@@ -356,7 +205,10 @@
       "tier": "B",
       "stage": "series_c",
       "last_raised": "2023",
-      "investor_signal": ["Bessemer Venture Partners", "Imaginary Ventures"],
+      "investor_signal": [
+        "Bessemer Venture Partners",
+        "Imaginary Ventures"
+      ],
       "employee_count": 200,
       "equity_upside_score": 3,
       "verified_at": "2026-04-15T07:25:00Z"
@@ -376,7 +228,11 @@
       "tier": "A",
       "stage": "series_e",
       "last_raised": "2022",
-      "investor_signal": ["a16z", "CapitalG", "Y Combinator"],
+      "investor_signal": [
+        "a16z",
+        "CapitalG",
+        "Y Combinator"
+      ],
       "employee_count": 600,
       "equity_upside_score": 3,
       "verified_at": "2026-04-15T07:25:00Z"
@@ -396,7 +252,11 @@
       "tier": "A",
       "stage": "series_e",
       "last_raised": "2022",
-      "investor_signal": ["a16z", "CapitalG", "Y Combinator"],
+      "investor_signal": [
+        "a16z",
+        "CapitalG",
+        "Y Combinator"
+      ],
       "employee_count": 600,
       "equity_upside_score": 3,
       "verified_at": "2026-04-15T07:25:00Z"
@@ -416,7 +276,11 @@
       "tier": "A",
       "stage": "series_e",
       "last_raised": "2022",
-      "investor_signal": ["a16z", "CapitalG", "Y Combinator"],
+      "investor_signal": [
+        "a16z",
+        "CapitalG",
+        "Y Combinator"
+      ],
       "employee_count": 600,
       "equity_upside_score": 3,
       "verified_at": "2026-04-15T07:28:00Z"
@@ -436,7 +300,11 @@
       "tier": "A",
       "stage": "series_e",
       "last_raised": "2022",
-      "investor_signal": ["a16z", "CapitalG", "Y Combinator"],
+      "investor_signal": [
+        "a16z",
+        "CapitalG",
+        "Y Combinator"
+      ],
       "employee_count": 600,
       "equity_upside_score": 3,
       "verified_at": "2026-04-15T07:28:00Z"
@@ -456,130 +324,15 @@
       "tier": "A",
       "stage": "series_c",
       "last_raised": "2025",
-      "investor_signal": ["IVP", "NEA", "Jeff Bezos", "Nvidia"],
+      "investor_signal": [
+        "IVP",
+        "NEA",
+        "Jeff Bezos",
+        "Nvidia"
+      ],
       "employee_count": 200,
       "equity_upside_score": 5,
       "verified_at": "2026-04-15T07:25:00Z"
-    },
-    {
-      "title": "Consumer Lifecycle Marketer",
-      "company": "Hinge Health",
-      "category": "Lifecycle Marketing",
-      "location": "San Francisco, CA (Hybrid/Remote)",
-      "location_type": "remote",
-      "date_posted": "2026-03-01",
-      "salary_low": null,
-      "salary_high": null,
-      "url": "https://jobs.ashbyhq.com/hinge-health/cc063acf-8be7-4915-8a33-13211dbfc067",
-      "source": "Ashby",
-      "sector": "consumer_health",
-      "tier": "A",
-      "stage": "series_f",
-      "last_raised": "2023",
-      "investor_signal": ["Coatue", "Tiger Global", "Bessemer"],
-      "employee_count": 1000,
-      "equity_upside_score": 2,
-      "verified_at": "2026-04-15T07:27:00Z"
-    },
-    {
-      "title": "Manager, Enrollment Marketing",
-      "company": "Hinge Health",
-      "category": "Growth Marketing",
-      "location": "San Francisco, CA (Hybrid/Remote)",
-      "location_type": "remote",
-      "date_posted": "2026-03-01",
-      "salary_low": null,
-      "salary_high": null,
-      "url": "https://jobs.ashbyhq.com/hinge-health/764bd402-407a-4c7c-876f-d25418b3d7d7",
-      "source": "Ashby",
-      "sector": "consumer_health",
-      "tier": "A",
-      "stage": "series_f",
-      "last_raised": "2023",
-      "investor_signal": ["Coatue", "Tiger Global", "Bessemer"],
-      "employee_count": 1000,
-      "equity_upside_score": 2,
-      "verified_at": "2026-04-15T07:27:00Z"
-    },
-    {
-      "title": "Senior Product Marketing Manager",
-      "company": "Virta Health",
-      "category": "Product Marketing",
-      "location": "San Francisco, CA (Remote eligible)",
-      "location_type": "remote",
-      "date_posted": "2026-02-01",
-      "salary_low": null,
-      "salary_high": null,
-      "url": "https://jobs.ashbyhq.com/virtahealth/1ee3970f-c5b6-4ee5-b6cf-38d1e4881ac2",
-      "source": "Ashby",
-      "sector": "consumer_health",
-      "tier": "A",
-      "stage": "series_e",
-      "last_raised": "2022",
-      "investor_signal": ["Andreessen Horowitz", "Tiger Global", "Caffeinated Capital"],
-      "employee_count": 400,
-      "equity_upside_score": 3,
-      "verified_at": "2026-04-15T07:27:00Z"
-    },
-    {
-      "title": "Lifecycle Marketing Manager",
-      "company": "Parsley Health",
-      "category": "Lifecycle Marketing",
-      "location": "New York, NY (Hybrid)",
-      "location_type": "nyc_hybrid",
-      "date_posted": "2026-03-01",
-      "salary_low": null,
-      "salary_high": null,
-      "url": "https://job-boards.greenhouse.io/parsleyhealth/jobs/6239291003",
-      "source": "Greenhouse",
-      "sector": "consumer_health",
-      "tier": "A",
-      "stage": "series_c",
-      "last_raised": "2023",
-      "investor_signal": ["FirstMark Capital", "Alliance Bernstein"],
-      "employee_count": 150,
-      "equity_upside_score": 4,
-      "verified_at": "2026-04-15T07:27:00Z"
-    },
-    {
-      "title": "Growth Marketing Manager",
-      "company": "Parsley Health",
-      "category": "Growth Marketing",
-      "location": "New York, NY (Hybrid)",
-      "location_type": "nyc_hybrid",
-      "date_posted": "2026-03-01",
-      "salary_low": null,
-      "salary_high": null,
-      "url": "https://job-boards.greenhouse.io/parsleyhealth/jobs/6258104003",
-      "source": "Greenhouse",
-      "sector": "consumer_health",
-      "tier": "A",
-      "stage": "series_c",
-      "last_raised": "2023",
-      "investor_signal": ["FirstMark Capital", "Alliance Bernstein"],
-      "employee_count": 150,
-      "equity_upside_score": 4,
-      "verified_at": "2026-04-15T07:27:00Z"
-    },
-    {
-      "title": "Senior Manager, Lifecycle Marketing",
-      "company": "Parsley Health",
-      "category": "Lifecycle Marketing",
-      "location": "New York, NY (Hybrid)",
-      "location_type": "nyc_hybrid",
-      "date_posted": "2026-03-15",
-      "salary_low": null,
-      "salary_high": null,
-      "url": "https://job-boards.greenhouse.io/parsleyhealth",
-      "source": "Greenhouse",
-      "sector": "consumer_health",
-      "tier": "A",
-      "stage": "series_c",
-      "last_raised": "2023",
-      "investor_signal": ["FirstMark Capital", "Alliance Bernstein"],
-      "employee_count": 150,
-      "equity_upside_score": 4,
-      "verified_at": "2026-04-15T07:27:00Z"
     },
     {
       "title": "Senior Product Marketing Manager",
@@ -596,7 +349,10 @@
       "tier": "B",
       "stage": "series_d",
       "last_raised": "2022",
-      "investor_signal": ["Catalyst Investors", "Recruit Holdings"],
+      "investor_signal": [
+        "Catalyst Investors",
+        "Recruit Holdings"
+      ],
       "employee_count": 300,
       "equity_upside_score": 2,
       "verified_at": "2026-04-15T07:27:00Z"
@@ -616,7 +372,10 @@
       "tier": "B",
       "stage": "series_d",
       "last_raised": "2022",
-      "investor_signal": ["Catalyst Investors", "Recruit Holdings"],
+      "investor_signal": [
+        "Catalyst Investors",
+        "Recruit Holdings"
+      ],
       "employee_count": 300,
       "equity_upside_score": 2,
       "verified_at": "2026-04-15T07:27:00Z"
@@ -636,7 +395,10 @@
       "tier": "B",
       "stage": "series_d",
       "last_raised": "2022",
-      "investor_signal": ["Catalyst Investors", "Recruit Holdings"],
+      "investor_signal": [
+        "Catalyst Investors",
+        "Recruit Holdings"
+      ],
       "employee_count": 300,
       "equity_upside_score": 2,
       "verified_at": "2026-04-15T07:27:00Z"
@@ -656,7 +418,10 @@
       "tier": "B",
       "stage": "series_d",
       "last_raised": "2022",
-      "investor_signal": ["Catalyst Investors", "Recruit Holdings"],
+      "investor_signal": [
+        "Catalyst Investors",
+        "Recruit Holdings"
+      ],
       "employee_count": 300,
       "equity_upside_score": 2,
       "verified_at": "2026-04-15T07:27:00Z"
@@ -676,7 +441,10 @@
       "tier": "B",
       "stage": "series_d",
       "last_raised": "2022",
-      "investor_signal": ["Catalyst Investors", "Recruit Holdings"],
+      "investor_signal": [
+        "Catalyst Investors",
+        "Recruit Holdings"
+      ],
       "employee_count": 300,
       "equity_upside_score": 2,
       "verified_at": "2026-04-15T07:27:00Z"
@@ -696,7 +464,11 @@
       "tier": "A",
       "stage": "series_f",
       "last_raised": "2022",
-      "investor_signal": ["NBCUniversal", "PayPal", "BlackRock"],
+      "investor_signal": [
+        "NBCUniversal",
+        "PayPal",
+        "BlackRock"
+      ],
       "employee_count": 300,
       "equity_upside_score": 3,
       "verified_at": "2026-04-15T07:28:00Z"
@@ -716,7 +488,11 @@
       "tier": "A",
       "stage": "series_f",
       "last_raised": "2022",
-      "investor_signal": ["NBCUniversal", "PayPal", "BlackRock"],
+      "investor_signal": [
+        "NBCUniversal",
+        "PayPal",
+        "BlackRock"
+      ],
       "employee_count": 300,
       "equity_upside_score": 3,
       "verified_at": "2026-04-15T07:28:00Z"
@@ -736,7 +512,11 @@
       "tier": "A",
       "stage": "series_f",
       "last_raised": "2022",
-      "investor_signal": ["NBCUniversal", "PayPal", "BlackRock"],
+      "investor_signal": [
+        "NBCUniversal",
+        "PayPal",
+        "BlackRock"
+      ],
       "employee_count": 300,
       "equity_upside_score": 3,
       "verified_at": "2026-04-15T07:28:00Z"
@@ -756,7 +536,11 @@
       "tier": "A",
       "stage": "series_f",
       "last_raised": "2022",
-      "investor_signal": ["NBCUniversal", "PayPal", "BlackRock"],
+      "investor_signal": [
+        "NBCUniversal",
+        "PayPal",
+        "BlackRock"
+      ],
       "employee_count": 300,
       "equity_upside_score": 3,
       "verified_at": "2026-04-15T07:28:00Z"
@@ -776,7 +560,10 @@
       "tier": "A",
       "stage": "series_b",
       "last_raised": "2024",
-      "investor_signal": ["Lightspeed Venture Partners", "Bain Capital Ventures"],
+      "investor_signal": [
+        "Lightspeed Venture Partners",
+        "Bain Capital Ventures"
+      ],
       "employee_count": 75,
       "equity_upside_score": 5,
       "verified_at": "2026-04-15T07:28:00Z"
@@ -796,7 +583,11 @@
       "tier": "A",
       "stage": "series_e",
       "last_raised": "2021",
-      "investor_signal": ["Sequoia", "Index Ventures", "Forerunner Ventures"],
+      "investor_signal": [
+        "Sequoia",
+        "Index Ventures",
+        "Forerunner Ventures"
+      ],
       "employee_count": 300,
       "equity_upside_score": 3,
       "verified_at": "2026-04-15T07:20:00Z"
@@ -816,7 +607,11 @@
       "tier": "A",
       "stage": "series_e",
       "last_raised": "2021",
-      "investor_signal": ["Sequoia", "Index Ventures", "Forerunner Ventures"],
+      "investor_signal": [
+        "Sequoia",
+        "Index Ventures",
+        "Forerunner Ventures"
+      ],
       "employee_count": 300,
       "equity_upside_score": 3,
       "verified_at": "2026-04-15T07:20:00Z"
@@ -836,7 +631,11 @@
       "tier": "A",
       "stage": "series_e",
       "last_raised": "2021",
-      "investor_signal": ["Sequoia", "Index Ventures", "Forerunner Ventures"],
+      "investor_signal": [
+        "Sequoia",
+        "Index Ventures",
+        "Forerunner Ventures"
+      ],
       "employee_count": 300,
       "equity_upside_score": 3,
       "verified_at": "2026-04-15T07:20:00Z"
@@ -856,7 +655,11 @@
       "tier": "A",
       "stage": "series_c",
       "last_raised": "2024",
-      "investor_signal": ["Tribe Capital", "B Capital", "MSD Partners"],
+      "investor_signal": [
+        "Tribe Capital",
+        "B Capital",
+        "MSD Partners"
+      ],
       "employee_count": 150,
       "equity_upside_score": 4,
       "verified_at": "2026-04-15T07:25:00Z"
@@ -876,7 +679,11 @@
       "tier": "B",
       "stage": "series_b",
       "last_raised": "2023",
-      "investor_signal": ["Valar Ventures", "Stripes Group", "Crosslink Capital"],
+      "investor_signal": [
+        "Valar Ventures",
+        "Stripes Group",
+        "Crosslink Capital"
+      ],
       "employee_count": 200,
       "equity_upside_score": 4,
       "verified_at": "2026-04-15T07:27:00Z"
@@ -896,28 +703,11 @@
       "tier": "B",
       "stage": "series_b",
       "last_raised": "2023",
-      "investor_signal": ["Andreessen Horowitz", "Bain Capital Ventures"],
+      "investor_signal": [
+        "Andreessen Horowitz",
+        "Bain Capital Ventures"
+      ],
       "employee_count": 100,
-      "equity_upside_score": 4,
-      "verified_at": "2026-04-15T07:25:00Z"
-    },
-    {
-      "title": "Founding Product Marketing Manager",
-      "company": "Collectly",
-      "category": "Product Marketing",
-      "location": "New York, NY (Remote eligible)",
-      "location_type": "remote",
-      "date_posted": "2026-03-10",
-      "salary_low": null,
-      "salary_high": null,
-      "url": "https://jobs.lever.co/CollectlyInc/65af32da-2b98-4709-bfde-25662669ddda",
-      "source": "Lever",
-      "sector": "consumer_health",
-      "tier": "B",
-      "stage": "series_b",
-      "last_raised": "2024",
-      "investor_signal": ["Andreessen Horowitz", "General Catalyst"],
-      "employee_count": 80,
       "equity_upside_score": 4,
       "verified_at": "2026-04-15T07:25:00Z"
     },
@@ -936,30 +726,13 @@
       "tier": "B",
       "stage": "series_c",
       "last_raised": "2024",
-      "investor_signal": ["Prelude Ventures", "Monogram Capital"],
+      "investor_signal": [
+        "Prelude Ventures",
+        "Monogram Capital"
+      ],
       "employee_count": 200,
       "equity_upside_score": 3,
       "verified_at": "2026-04-15T07:28:00Z"
-    },
-    {
-      "title": "Marketing Manager, Growth Marketing",
-      "company": "Headspace",
-      "category": "Growth Marketing",
-      "location": "Remote, US",
-      "location_type": "remote",
-      "date_posted": "2026-02-15",
-      "salary_low": null,
-      "salary_high": null,
-      "url": "https://jobs.lever.co/headspace/d3978496-f1fb-4a05-a162-f832737b821e",
-      "source": "Lever",
-      "sector": "consumer_health",
-      "tier": "A",
-      "stage": "series_c",
-      "last_raised": "2022",
-      "investor_signal": ["Spectrum Equity", "Times Bridge"],
-      "employee_count": 400,
-      "equity_upside_score": 2,
-      "verified_at": "2026-04-15T07:22:00Z"
     },
     {
       "title": "Director, Growth Marketing",
@@ -976,7 +749,9 @@
       "tier": "B",
       "stage": "unknown",
       "last_raised": "2021",
-      "investor_signal": ["Vista Equity Partners"],
+      "investor_signal": [
+        "Vista Equity Partners"
+      ],
       "employee_count": 1000,
       "equity_upside_score": 1,
       "verified_at": "2026-04-15T07:27:00Z"
@@ -996,7 +771,10 @@
       "tier": "C",
       "stage": "series_a",
       "last_raised": "2024",
-      "investor_signal": ["Sequoia", "General Catalyst"],
+      "investor_signal": [
+        "Sequoia",
+        "General Catalyst"
+      ],
       "employee_count": 30,
       "equity_upside_score": 5,
       "verified_at": "2026-04-15T07:28:00Z"
@@ -1016,10 +794,929 @@
       "tier": "B",
       "stage": "series_f",
       "last_raised": "2022",
-      "investor_signal": ["EQT Growth", "Sprints Capital"],
+      "investor_signal": [
+        "EQT Growth",
+        "Sprints Capital"
+      ],
       "employee_count": 1500,
       "equity_upside_score": 2,
       "verified_at": "2026-04-15T07:28:00Z"
+    },
+    {
+      "title": "Lifecycle Marketing Manager (Remote)",
+      "company": "Rula",
+      "category": "Lifecycle Marketing",
+      "location": "Remote, US",
+      "location_type": "remote",
+      "date_posted": "2026-03-20",
+      "salary_low": null,
+      "salary_high": null,
+      "url": "https://jobs.ashbyhq.com/rula/a9c4a3e4-0868-448e-a97d-137ff8aff801",
+      "source": "Ashby",
+      "sector": "consumer_health",
+      "tier": "A",
+      "stage": "series_c",
+      "last_raised": "2024",
+      "investor_signal": [
+        "a16z",
+        "Forerunner Ventures",
+        "SignalFire"
+      ],
+      "employee_count": 300,
+      "equity_upside_score": 4,
+      "verified_at": "2026-04-15T07:22:00Z"
+    },
+    {
+      "title": "Director of Lifecycle Marketing (Remote)",
+      "company": "Rula",
+      "category": "Lifecycle Marketing",
+      "location": "Remote, US",
+      "location_type": "remote",
+      "date_posted": "2026-03-20",
+      "salary_low": null,
+      "salary_high": null,
+      "url": "https://jobs.ashbyhq.com/rula/568f2176-859e-47b9-a353-c04a47b2c01e",
+      "source": "Ashby",
+      "sector": "consumer_health",
+      "tier": "A",
+      "stage": "series_c",
+      "last_raised": "2024",
+      "investor_signal": [
+        "a16z",
+        "Forerunner Ventures",
+        "SignalFire"
+      ],
+      "employee_count": 300,
+      "equity_upside_score": 4,
+      "verified_at": "2026-04-15T07:22:00Z"
+    },
+    {
+      "title": "Sr. Content & Social Marketing Manager (Remote)",
+      "company": "Rula",
+      "category": "Brand Marketing",
+      "location": "Remote, US",
+      "location_type": "remote",
+      "date_posted": "2026-03-15",
+      "salary_low": null,
+      "salary_high": null,
+      "url": "https://jobs.ashbyhq.com/rula/2c98d92c-3d21-483c-90cf-0aa650912959",
+      "source": "Ashby",
+      "sector": "consumer_health",
+      "tier": "A",
+      "stage": "series_c",
+      "last_raised": "2024",
+      "investor_signal": [
+        "a16z",
+        "Forerunner Ventures",
+        "SignalFire"
+      ],
+      "employee_count": 300,
+      "equity_upside_score": 4,
+      "verified_at": "2026-04-15T07:22:00Z"
+    },
+    {
+      "title": "Senior Growth Marketing Manager — B2B Partnerships (Remote)",
+      "company": "Rula",
+      "category": "Growth Marketing",
+      "location": "Remote, US",
+      "location_type": "remote",
+      "date_posted": "2026-03-20",
+      "salary_low": null,
+      "salary_high": null,
+      "url": "https://jobs.ashbyhq.com/rula/cd8d4119-06df-48eb-87f5-1d5fe1ee5da4",
+      "source": "Ashby",
+      "sector": "consumer_health",
+      "tier": "A",
+      "stage": "series_c",
+      "last_raised": "2024",
+      "investor_signal": [
+        "a16z",
+        "Forerunner Ventures",
+        "SignalFire"
+      ],
+      "employee_count": 300,
+      "equity_upside_score": 4,
+      "verified_at": "2026-04-15T07:22:00Z"
+    },
+    {
+      "title": "Lifecycle Marketing Manager",
+      "company": "Parsley Health",
+      "category": "Lifecycle Marketing",
+      "location": "New York, NY (Hybrid)",
+      "location_type": "nyc_hybrid",
+      "date_posted": "2026-03-01",
+      "salary_low": null,
+      "salary_high": null,
+      "url": "https://job-boards.greenhouse.io/parsleyhealth/jobs/6239291003",
+      "source": "Greenhouse",
+      "sector": "consumer_health",
+      "tier": "A",
+      "stage": "series_c",
+      "last_raised": "2023",
+      "investor_signal": [
+        "FirstMark Capital",
+        "Alliance Bernstein"
+      ],
+      "employee_count": 150,
+      "equity_upside_score": 4,
+      "verified_at": "2026-04-15T07:27:00Z"
+    },
+    {
+      "title": "Growth Marketing Manager",
+      "company": "GlossGenius",
+      "category": "Growth Marketing",
+      "location": "New York, NY",
+      "location_type": "nyc_onsite",
+      "date_posted": "2026-03-01",
+      "salary_low": 145000,
+      "salary_high": 165000,
+      "url": "https://job-boards.greenhouse.io/glossgenius/jobs/7617555003",
+      "source": "Greenhouse",
+      "sector": "vertical_saas",
+      "tier": "B",
+      "stage": "series_b",
+      "last_raised": "2024-09",
+      "investor_signal": [
+        "L Catterton",
+        "Left Lane Capital"
+      ],
+      "employee_count": 150,
+      "equity_upside_score": 4,
+      "verified_at": "2026-04-15T18:00:00.000Z"
+    },
+    {
+      "title": "Senior Brand Manager",
+      "company": "GlossGenius",
+      "category": "Brand Marketing",
+      "location": "New York, NY",
+      "location_type": "nyc_hybrid",
+      "date_posted": "2026-02-15",
+      "salary_low": 145000,
+      "salary_high": 185000,
+      "url": "https://job-boards.greenhouse.io/glossgenius/jobs/7561551003",
+      "source": "Greenhouse",
+      "sector": "vertical_saas",
+      "tier": "B",
+      "stage": "series_b",
+      "last_raised": "2024-09",
+      "investor_signal": [
+        "L Catterton",
+        "Left Lane Capital"
+      ],
+      "employee_count": 150,
+      "equity_upside_score": 4,
+      "verified_at": "2026-04-15T18:00:00.000Z"
+    },
+    {
+      "title": "Performance Marketing Manager, Paid Social",
+      "company": "GlossGenius",
+      "category": "Growth Marketing",
+      "location": "New York, NY or SF Bay Area",
+      "location_type": "nyc_hybrid",
+      "date_posted": "2026-03-10",
+      "salary_low": 145000,
+      "salary_high": 170000,
+      "url": "https://job-boards.greenhouse.io/glossgenius/jobs/7679117003",
+      "source": "Greenhouse",
+      "sector": "vertical_saas",
+      "tier": "B",
+      "stage": "series_b",
+      "last_raised": "2024-09",
+      "investor_signal": [
+        "L Catterton",
+        "Left Lane Capital"
+      ],
+      "employee_count": 150,
+      "equity_upside_score": 4,
+      "verified_at": "2026-04-15T18:00:00.000Z"
+    },
+    {
+      "title": "Director, PR & Communications",
+      "company": "GlossGenius",
+      "category": "Brand Marketing",
+      "location": "New York, NY",
+      "location_type": "nyc_onsite",
+      "date_posted": "2026-03-15",
+      "salary_low": 200000,
+      "salary_high": 250000,
+      "url": "https://job-boards.greenhouse.io/glossgenius/jobs/7622500003",
+      "source": "Greenhouse",
+      "sector": "vertical_saas",
+      "tier": "B",
+      "stage": "series_b",
+      "last_raised": "2024-09",
+      "investor_signal": [
+        "L Catterton",
+        "Left Lane Capital"
+      ],
+      "employee_count": 150,
+      "equity_upside_score": 4,
+      "verified_at": "2026-04-15T18:00:00.000Z"
+    },
+    {
+      "title": "Founding Growth Marketing Lead",
+      "company": "Misprint",
+      "category": "Generalist",
+      "location": "New York, NY",
+      "location_type": "nyc_onsite",
+      "date_posted": "2026-04-13",
+      "salary_low": 120000,
+      "salary_high": 160000,
+      "url": "https://www.ycombinator.com/companies/misprint/jobs/AUQ6gpq-founding-growth-marketing-lead",
+      "source": "Y Combinator",
+      "sector": "marketplace",
+      "tier": "A",
+      "stage": "seed",
+      "last_raised": "2025-09",
+      "investor_signal": [
+        "Y Combinator"
+      ],
+      "employee_count": 5,
+      "equity_upside_score": 5,
+      "verified_at": "2026-04-15T18:00:00.000Z"
+    },
+    {
+      "title": "Senior Product Marketing Manager",
+      "company": "Wingspan",
+      "category": "Product Marketing",
+      "location": "New York, NY",
+      "location_type": "nyc_onsite",
+      "date_posted": "2026-01-20",
+      "salary_low": 150000,
+      "salary_high": 175000,
+      "url": "https://job-boards.greenhouse.io/wingspan/jobs/7541057003",
+      "source": "Greenhouse",
+      "sector": "consumer_fintech",
+      "tier": "A",
+      "stage": "series_b",
+      "last_raised": "2024-01",
+      "investor_signal": [
+        "Andreessen Horowitz"
+      ],
+      "employee_count": 100,
+      "equity_upside_score": 4,
+      "verified_at": "2026-04-15T18:00:00.000Z"
+    },
+    {
+      "title": "Performance Marketing Lead",
+      "company": "ElevenLabs",
+      "category": "Growth Marketing",
+      "location": "New York, NY",
+      "location_type": "nyc_onsite",
+      "date_posted": "2026-03-01",
+      "salary_low": null,
+      "salary_high": null,
+      "url": "https://jobs.ashbyhq.com/elevenlabs/0b402ccb-2052-45e5-a9c8-0246beaf83ff",
+      "source": "Ashby",
+      "sector": "consumer_ai",
+      "tier": "A",
+      "stage": "series_c",
+      "last_raised": "2025-01",
+      "investor_signal": [
+        "Andreessen Horowitz",
+        "Sequoia Capital",
+        "ICONIQ Growth"
+      ],
+      "employee_count": 200,
+      "equity_upside_score": 5,
+      "verified_at": "2026-04-15T18:00:00.000Z"
+    },
+    {
+      "title": "B2B Marketing Lead - ElevenCreative",
+      "company": "ElevenLabs",
+      "category": "Product Marketing",
+      "location": "Remote / New York or London",
+      "location_type": "remote",
+      "date_posted": "2026-02-15",
+      "salary_low": null,
+      "salary_high": null,
+      "url": "https://jobs.ashbyhq.com/elevenlabs/baf2a98e-2cc7-4988-b98a-2b92a62d05dd",
+      "source": "Ashby",
+      "sector": "consumer_ai",
+      "tier": "A",
+      "stage": "series_c",
+      "last_raised": "2025-01",
+      "investor_signal": [
+        "Andreessen Horowitz",
+        "Sequoia Capital",
+        "ICONIQ Growth"
+      ],
+      "employee_count": 200,
+      "equity_upside_score": 5,
+      "verified_at": "2026-04-15T18:00:00.000Z"
+    },
+    {
+      "title": "B2B Marketing - North America Generalist",
+      "company": "ElevenLabs",
+      "category": "Generalist",
+      "location": "Remote / New York or San Francisco",
+      "location_type": "remote",
+      "date_posted": "2026-03-01",
+      "salary_low": null,
+      "salary_high": null,
+      "url": "https://jobs.ashbyhq.com/elevenlabs/89f01b9a-be26-4fe4-8a06-e5a65b85fcdc",
+      "source": "Ashby",
+      "sector": "consumer_ai",
+      "tier": "A",
+      "stage": "series_c",
+      "last_raised": "2025-01",
+      "investor_signal": [
+        "Andreessen Horowitz",
+        "Sequoia Capital",
+        "ICONIQ Growth"
+      ],
+      "employee_count": 200,
+      "equity_upside_score": 5,
+      "verified_at": "2026-04-15T18:00:00.000Z"
+    },
+    {
+      "title": "Senior Product Marketing Manager",
+      "company": "Replit",
+      "category": "Product Marketing",
+      "location": "Remote (US)",
+      "location_type": "remote",
+      "date_posted": "2026-03-01",
+      "salary_low": null,
+      "salary_high": null,
+      "url": "https://jobs.ashbyhq.com/replit/234c9a82-2857-4691-af83-308100806df3",
+      "source": "Ashby",
+      "sector": "consumer_ai",
+      "tier": "A",
+      "stage": "series_b",
+      "last_raised": "2024-08",
+      "investor_signal": [
+        "Andreessen Horowitz",
+        "Y Combinator",
+        "Khosla Ventures"
+      ],
+      "employee_count": 100,
+      "equity_upside_score": 4,
+      "verified_at": "2026-04-15T18:00:00.000Z"
+    },
+    {
+      "title": "Solutions Product Marketing Manager",
+      "company": "Perplexity AI",
+      "category": "Product Marketing",
+      "location": "San Francisco, CA / Remote",
+      "location_type": "remote",
+      "date_posted": "2026-02-01",
+      "salary_low": null,
+      "salary_high": null,
+      "url": "https://jobs.ashbyhq.com/perplexity/9e3a4516-b893-4579-9a6a-3720658e4b6d",
+      "source": "Ashby",
+      "sector": "consumer_ai",
+      "tier": "A",
+      "stage": "series_e",
+      "last_raised": "2025-01",
+      "investor_signal": [
+        "Andreessen Horowitz",
+        "IVP",
+        "Nvidia",
+        "Jeff Bezos"
+      ],
+      "employee_count": 300,
+      "equity_upside_score": 4,
+      "verified_at": "2026-04-15T18:00:00.000Z"
+    },
+    {
+      "title": "Growth Marketing Lead",
+      "company": "Housewarming",
+      "category": "Growth Marketing",
+      "location": "New York, NY",
+      "location_type": "nyc_onsite",
+      "date_posted": "2026-03-15",
+      "salary_low": null,
+      "salary_high": null,
+      "url": "https://www.ycombinator.com/companies/housewarming/jobs/Jqjteuv-marketing-growth",
+      "source": "Y Combinator",
+      "sector": "proptech_consumer",
+      "tier": "B",
+      "stage": "seed",
+      "last_raised": "2024-06",
+      "investor_signal": [
+        "Y Combinator"
+      ],
+      "employee_count": 15,
+      "equity_upside_score": 4,
+      "verified_at": "2026-04-15T18:00:00.000Z"
+    },
+    {
+      "title": "Director of Marketing",
+      "company": "Sendblue",
+      "category": "Generalist",
+      "location": "New York, NY",
+      "location_type": "nyc_onsite",
+      "date_posted": "2026-02-01",
+      "salary_low": null,
+      "salary_high": null,
+      "url": "https://www.ycombinator.com/companies/sendblue/jobs/4VOCVKv-director-of-marketing",
+      "source": "Y Combinator",
+      "sector": "b2b2c",
+      "tier": "B",
+      "stage": "seed",
+      "last_raised": "2024-03",
+      "investor_signal": [
+        "Y Combinator"
+      ],
+      "employee_count": 50,
+      "equity_upside_score": 4,
+      "verified_at": "2026-04-15T18:00:00.000Z"
+    },
+    {
+      "title": "Growth Partnerships",
+      "company": "Confido",
+      "category": "Growth Marketing",
+      "location": "New York, NY",
+      "location_type": "nyc_onsite",
+      "date_posted": "2026-02-20",
+      "salary_low": null,
+      "salary_high": null,
+      "url": "https://www.ycombinator.com/companies/confido/jobs/xvT6Etv-growth-partnerships",
+      "source": "Y Combinator",
+      "sector": "consumer_fintech",
+      "tier": "A",
+      "stage": "seed",
+      "last_raised": "2024-06",
+      "investor_signal": [
+        "Y Combinator"
+      ],
+      "employee_count": 20,
+      "equity_upside_score": 5,
+      "verified_at": "2026-04-15T18:00:00.000Z"
+    },
+    {
+      "title": "Head of Marketing",
+      "company": "PermitFlow",
+      "category": "Generalist",
+      "location": "New York City, NY",
+      "location_type": "nyc_onsite",
+      "date_posted": "2026-03-10",
+      "salary_low": null,
+      "salary_high": null,
+      "url": "https://www.ycombinator.com/companies/permitflow/jobs/BPDV9wX-head-of-marketing",
+      "source": "Y Combinator",
+      "sector": "b2b2c",
+      "tier": "B",
+      "stage": "series_a",
+      "last_raised": "2024-05",
+      "investor_signal": [
+        "Y Combinator",
+        "Andreessen Horowitz"
+      ],
+      "employee_count": 50,
+      "equity_upside_score": 4,
+      "verified_at": "2026-04-15T18:00:00.000Z"
+    },
+    {
+      "title": "Founding Growth Marketing Lead",
+      "company": "Resolve",
+      "category": "Generalist",
+      "location": "New York, NY / Remote (US)",
+      "location_type": "nyc_hybrid",
+      "date_posted": "2026-03-05",
+      "salary_low": null,
+      "salary_high": null,
+      "url": "https://www.ycombinator.com/companies/resolve/jobs/9ECcwEs-founding-marketing-lead",
+      "source": "Y Combinator",
+      "sector": "consumer_fintech",
+      "tier": "A",
+      "stage": "series_a",
+      "last_raised": "2024-08",
+      "investor_signal": [
+        "Y Combinator"
+      ],
+      "employee_count": 40,
+      "equity_upside_score": 5,
+      "verified_at": "2026-04-15T18:00:00.000Z"
+    },
+    {
+      "title": "Head of Growth",
+      "company": "Beam",
+      "category": "Growth Marketing",
+      "location": "New York, NY",
+      "location_type": "nyc_onsite",
+      "date_posted": "2026-03-01",
+      "salary_low": null,
+      "salary_high": null,
+      "url": "https://www.ycombinator.com/companies/beam/jobs/6rKakUF-growth",
+      "source": "Y Combinator",
+      "sector": "consumer_ai",
+      "tier": "A",
+      "stage": "seed",
+      "last_raised": "2024-01",
+      "investor_signal": [
+        "Y Combinator",
+        "Tiger Global"
+      ],
+      "employee_count": 5,
+      "equity_upside_score": 5,
+      "verified_at": "2026-04-15T18:00:00.000Z"
+    },
+    {
+      "title": "Product Marketing Manager, Retirement Savers",
+      "company": "Pontera",
+      "category": "Product Marketing",
+      "location": "New York, NY",
+      "location_type": "nyc_hybrid",
+      "date_posted": "2026-02-01",
+      "salary_low": null,
+      "salary_high": null,
+      "url": "https://boards.greenhouse.io/pontera/jobs/5063974004",
+      "source": "Greenhouse",
+      "sector": "consumer_fintech",
+      "tier": "A",
+      "stage": "series_c",
+      "last_raised": "2024-01",
+      "investor_signal": [
+        "Lightspeed Venture Partners",
+        "ICONIQ Growth"
+      ],
+      "employee_count": 200,
+      "equity_upside_score": 4,
+      "verified_at": "2026-04-15T18:00:00.000Z"
+    },
+    {
+      "title": "Head of Growth Marketing",
+      "company": "Writesonic",
+      "category": "Growth Marketing",
+      "location": "Remote (US)",
+      "location_type": "remote",
+      "date_posted": "2026-02-20",
+      "salary_low": null,
+      "salary_high": null,
+      "url": "https://www.ycombinator.com/companies/writesonic/jobs/lOEOuNg-head-of-growth-marketing",
+      "source": "Y Combinator",
+      "sector": "consumer_ai",
+      "tier": "A",
+      "stage": "series_a",
+      "last_raised": "2024-03",
+      "investor_signal": [
+        "Y Combinator"
+      ],
+      "employee_count": 50,
+      "equity_upside_score": 4,
+      "verified_at": "2026-04-15T18:00:00.000Z"
+    },
+    {
+      "title": "Product Marketing Manager",
+      "company": "Escape",
+      "category": "Product Marketing",
+      "location": "New York, NY",
+      "location_type": "nyc_hybrid",
+      "date_posted": "2026-04-01",
+      "salary_low": null,
+      "salary_high": null,
+      "url": "https://www.ycombinator.com/companies/escape/jobs/nD4nJ7o-product-marketing-manager-pmm-nyc-hybrid",
+      "source": "Y Combinator",
+      "sector": "vertical_saas",
+      "tier": "B",
+      "stage": "series_a",
+      "last_raised": "2024-10",
+      "investor_signal": [
+        "Y Combinator"
+      ],
+      "employee_count": 40,
+      "equity_upside_score": 4,
+      "verified_at": "2026-04-15T18:00:00.000Z"
+    },
+    {
+      "title": "GTM Lead",
+      "company": "Hindsight",
+      "category": "GTM Strategy",
+      "location": "New York, NY",
+      "location_type": "nyc_onsite",
+      "date_posted": "2026-03-01",
+      "salary_low": null,
+      "salary_high": null,
+      "url": "https://www.ycombinator.com/companies/hindsight/jobs/3m4tgoH-gtm-lead",
+      "source": "Y Combinator",
+      "sector": "consumer_fintech",
+      "tier": "A",
+      "stage": "seed",
+      "last_raised": "2025-03",
+      "investor_signal": [
+        "Y Combinator"
+      ],
+      "employee_count": 15,
+      "equity_upside_score": 5,
+      "verified_at": "2026-04-15T18:00:00.000Z"
+    },
+    {
+      "title": "Founding GTM Lead",
+      "company": "Cozmo AI",
+      "category": "GTM Strategy",
+      "location": "New York, NY / Dubai / San Francisco",
+      "location_type": "nyc_onsite",
+      "date_posted": "2026-03-01",
+      "salary_low": null,
+      "salary_high": null,
+      "url": "https://www.ycombinator.com/companies/cozmo-ai/jobs/htPfvUa-founding-gtm-lead",
+      "source": "Y Combinator",
+      "sector": "consumer_ai",
+      "tier": "A",
+      "stage": "seed",
+      "last_raised": "2024-09",
+      "investor_signal": [
+        "Y Combinator"
+      ],
+      "employee_count": 10,
+      "equity_upside_score": 5,
+      "verified_at": "2026-04-15T18:00:00.000Z"
+    },
+    {
+      "title": "Product Marketing Manager",
+      "company": "Topline Pro",
+      "category": "Product Marketing",
+      "location": "New York, NY",
+      "location_type": "nyc_onsite",
+      "date_posted": "2026-02-01",
+      "salary_low": 130000,
+      "salary_high": 150000,
+      "url": "https://jobs.ashbyhq.com/topline-pro/7caeeb70-de5b-44c5-ab36-2af1d9cf0d57/application",
+      "source": "Ashby",
+      "sector": "b2b2c",
+      "tier": "B",
+      "stage": "series_b",
+      "last_raised": "2024-06",
+      "investor_signal": [
+        "Forerunner Ventures",
+        "Y Combinator"
+      ],
+      "employee_count": 90,
+      "equity_upside_score": 4,
+      "verified_at": "2026-04-15T18:00:00.000Z"
+    },
+    {
+      "title": "Growth Marketing Associate",
+      "company": "Partiful",
+      "category": "Growth Marketing",
+      "location": "New York, NY",
+      "location_type": "nyc_onsite",
+      "date_posted": "2026-03-01",
+      "salary_low": 85000,
+      "salary_high": 125000,
+      "url": "https://jobs.ashbyhq.com/partiful",
+      "source": "Ashby",
+      "sector": "consumer_tech",
+      "tier": "A",
+      "stage": "series_a",
+      "last_raised": "2024-06",
+      "investor_signal": [
+        "Andreessen Horowitz",
+        "First Round Capital"
+      ],
+      "employee_count": 25,
+      "equity_upside_score": 5,
+      "verified_at": "2026-04-15T18:00:00.000Z"
+    },
+    {
+      "title": "Head of Brand and Marketing",
+      "company": "Breeze",
+      "category": "Brand Marketing",
+      "location": "Remote / New York",
+      "location_type": "remote",
+      "date_posted": "2026-01-10",
+      "salary_low": null,
+      "salary_high": null,
+      "url": "https://job-boards.greenhouse.io/breezecash/jobs/5040565008",
+      "source": "Greenhouse",
+      "sector": "consumer_fintech",
+      "tier": "A",
+      "stage": "series_a",
+      "last_raised": "2024-08",
+      "investor_signal": [
+        "Sequoia Capital"
+      ],
+      "employee_count": 30,
+      "equity_upside_score": 5,
+      "verified_at": "2026-04-15T18:00:00.000Z"
+    },
+    {
+      "title": "Marketing Lead",
+      "company": "Plura",
+      "category": "Generalist",
+      "location": "Remote (US)",
+      "location_type": "remote",
+      "date_posted": "2026-02-15",
+      "salary_low": null,
+      "salary_high": null,
+      "url": "https://www.ycombinator.com/companies/plura/jobs/duoD8Xg-marketing-manager",
+      "source": "Y Combinator",
+      "sector": "consumer_tech",
+      "tier": "A",
+      "stage": "series_a",
+      "last_raised": "2024-06",
+      "investor_signal": [
+        "Y Combinator"
+      ],
+      "employee_count": 20,
+      "equity_upside_score": 4,
+      "verified_at": "2026-04-15T18:00:00.000Z"
+    },
+    {
+      "title": "Lifecycle Marketing Manager",
+      "company": "Ad Hoc Labs",
+      "category": "Lifecycle Marketing",
+      "location": "Remote (US)",
+      "location_type": "remote",
+      "date_posted": "2026-03-01",
+      "salary_low": null,
+      "salary_high": null,
+      "url": "https://jobs.lever.co/adhoclabs/2284367e-1895-477d-8800-9bde57ca9456",
+      "source": "Lever",
+      "sector": "consumer_tech",
+      "tier": "A",
+      "stage": "series_b",
+      "last_raised": "2024-03",
+      "investor_signal": [
+        "Andreessen Horowitz",
+        "GV"
+      ],
+      "employee_count": 60,
+      "equity_upside_score": 4,
+      "verified_at": "2026-04-15T18:00:00.000Z"
+    },
+    {
+      "title": "Communications Manager, Product & Community",
+      "company": "Substack",
+      "category": "Brand Marketing",
+      "location": "Remote / New York",
+      "location_type": "remote",
+      "date_posted": "2026-03-15",
+      "salary_low": null,
+      "salary_high": null,
+      "url": "https://jobs.ashbyhq.com/substack/166bb9e3-ec9a-43c0-a99d-decb86379151",
+      "source": "Ashby",
+      "sector": "creator_media",
+      "tier": "A",
+      "stage": "series_b",
+      "last_raised": "2024-03",
+      "investor_signal": [
+        "Andreessen Horowitz",
+        "Y Combinator"
+      ],
+      "employee_count": 80,
+      "equity_upside_score": 5,
+      "verified_at": "2026-04-15T18:00:00.000Z"
+    },
+    {
+      "title": "Director of Growth Marketing",
+      "company": "Topline Pro",
+      "category": "Growth Marketing",
+      "location": "New York, NY",
+      "location_type": "nyc_onsite",
+      "date_posted": "2026-02-01",
+      "salary_low": null,
+      "salary_high": null,
+      "url": "https://www.toplinepro.com/careers",
+      "source": "Topline Pro Careers",
+      "sector": "b2b2c",
+      "tier": "B",
+      "stage": "series_b",
+      "last_raised": "2024-06",
+      "investor_signal": [
+        "Forerunner Ventures",
+        "Y Combinator"
+      ],
+      "employee_count": 90,
+      "equity_upside_score": 4,
+      "verified_at": "2026-04-15T18:00:00.000Z"
+    },
+    {
+      "title": "Marketing & Growth",
+      "company": "Housewarming",
+      "category": "Generalist",
+      "location": "New York, NY",
+      "location_type": "nyc_onsite",
+      "date_posted": "2026-03-15",
+      "salary_low": null,
+      "salary_high": null,
+      "url": "https://www.ycombinator.com/companies/housewarming/jobs/Jqjteuv-marketing-growth",
+      "source": "Y Combinator",
+      "sector": "consumer_tech",
+      "tier": "A",
+      "stage": "seed",
+      "last_raised": "2024-01",
+      "investor_signal": [
+        "Y Combinator"
+      ],
+      "employee_count": 10,
+      "equity_upside_score": 5,
+      "verified_at": "2026-04-15T18:00:00.000Z"
+    },
+    {
+      "title": "Lifecycle Marketing Manager",
+      "company": "Gynger",
+      "category": "Lifecycle Marketing",
+      "location": "New York, NY",
+      "location_type": "nyc_onsite",
+      "date_posted": "2026-03-01",
+      "salary_low": null,
+      "salary_high": null,
+      "url": "https://jobs.lever.co/gynger/4a7aa0ea-6f62-48c2-af19-920cf31beaa7",
+      "source": "Lever",
+      "sector": "consumer_fintech",
+      "tier": "A",
+      "stage": "series_a",
+      "last_raised": "2024-10",
+      "investor_signal": [
+        "FirstMark Capital",
+        "Andreessen Horowitz"
+      ],
+      "employee_count": 40,
+      "equity_upside_score": 5,
+      "verified_at": "2026-04-15T18:00:00.000Z"
+    },
+    {
+      "title": "Senior Product Marketing Manager",
+      "company": "Pontera",
+      "category": "Product Marketing",
+      "location": "New York, NY",
+      "location_type": "nyc_hybrid",
+      "date_posted": "2026-02-01",
+      "salary_low": null,
+      "salary_high": null,
+      "url": "https://job-boards.greenhouse.io/pontera",
+      "source": "Greenhouse",
+      "sector": "consumer_fintech",
+      "tier": "A",
+      "stage": "series_c",
+      "last_raised": "2024-01",
+      "investor_signal": [
+        "Lightspeed Venture Partners",
+        "ICONIQ Growth"
+      ],
+      "employee_count": 200,
+      "equity_upside_score": 4,
+      "verified_at": "2026-04-15T18:00:00.000Z"
+    },
+    {
+      "title": "Founding GTM",
+      "company": "Feather",
+      "category": "GTM Strategy",
+      "location": "Remote (US)",
+      "location_type": "remote",
+      "date_posted": "2026-03-01",
+      "salary_low": null,
+      "salary_high": null,
+      "url": "https://www.ycombinator.com/companies/feather-2/jobs/NM2h0iL-founding-gtm",
+      "source": "Y Combinator",
+      "sector": "consumer_ai",
+      "tier": "A",
+      "stage": "seed",
+      "last_raised": "2024-09",
+      "investor_signal": [
+        "Y Combinator"
+      ],
+      "employee_count": 10,
+      "equity_upside_score": 5,
+      "verified_at": "2026-04-15T18:00:00.000Z"
+    },
+    {
+      "title": "Head of Product Marketing",
+      "company": "Fyxer",
+      "category": "Product Marketing",
+      "location": "Remote (US/UK)",
+      "location_type": "remote",
+      "date_posted": "2026-03-01",
+      "salary_low": null,
+      "salary_high": null,
+      "url": "https://jobs.ashbyhq.com/fyxer/f0f46658-e382-40cb-8bd5-1a4c5bbcddf8",
+      "source": "Ashby",
+      "sector": "consumer_ai",
+      "tier": "A",
+      "stage": "series_a",
+      "last_raised": "2025-01",
+      "investor_signal": [
+        "Sequoia Capital",
+        "Index Ventures"
+      ],
+      "employee_count": 40,
+      "equity_upside_score": 5,
+      "verified_at": "2026-04-15T18:00:00.000Z"
+    },
+    {
+      "title": "Director, Lifecycle Marketing",
+      "company": "Pontera",
+      "category": "Lifecycle Marketing",
+      "location": "New York, NY",
+      "location_type": "nyc_hybrid",
+      "date_posted": "2026-02-01",
+      "salary_low": null,
+      "salary_high": null,
+      "url": "https://boards.greenhouse.io/pontera/jobs/5002218004",
+      "source": "Greenhouse",
+      "sector": "consumer_fintech",
+      "tier": "A",
+      "stage": "series_c",
+      "last_raised": "2024-01",
+      "investor_signal": [
+        "Lightspeed Venture Partners",
+        "ICONIQ Growth"
+      ],
+      "employee_count": 200,
+      "equity_upside_score": 4,
+      "verified_at": "2026-04-15T18:00:00.000Z"
     }
   ]
 }
