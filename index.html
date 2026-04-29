@@ -336,7 +336,11 @@ tr.applied-row:hover td{background:#dcfce7 !important}
   var searchTerm='', sortMode='tier';
   var showExpired=false;
   var newOnly=false;
-  var newAtLoad={}; // snapshot of which job keys were unseen when the page loaded
+  var latestRefreshDate=''; // YYYY-MM-DD of the current last_updated; used to flag "new this refresh" jobs
+
+  function isNewThisRefresh(j){
+    return latestRefreshDate && j.first_seen === latestRefreshDate;
+  }
 
   function jk(j){ return (j.title||j['Job Title']||'')+'|||'+(j.company||j['Company']||''); }
   function getLS(k){ try{return JSON.parse(localStorage.getItem(k))||{};} catch(e){return {};} }
@@ -367,7 +371,8 @@ tr.applied-row:hover td{background:#dcfce7 !important}
       equity_upside_score: j.equity_upside_score || 0,
       verified_at:    j.verified_at || '',
       status:         j.status || 'active',
-      company_type:   j.company_type || ''
+      company_type:   j.company_type || '',
+      first_seen:     j.first_seen || ''
     };
   }
 
@@ -552,7 +557,7 @@ tr.applied-row:hover td{background:#dcfce7 !important}
 
     var vis=allJobs.filter(function(j){ return deleted.indexOf(jk(j))===-1; });
     if(!showExpired)         vis=vis.filter(function(j){ return j.status!=='expired'; });
-    if(newOnly)              vis=vis.filter(function(j){ return newAtLoad[jk(j)]; });
+    if(newOnly)              vis=vis.filter(isNewThisRefresh);
     if(activeTier!=='all')   vis=vis.filter(function(j){ return j.tier===activeTier; });
     if(activeLoc!=='all')    vis=vis.filter(function(j){ return j.location_type===activeLoc; });
     if(activeSector!=='all') vis=vis.filter(function(j){ return j.sector===activeSector; });
@@ -577,7 +582,7 @@ tr.applied-row:hover td{background:#dcfce7 !important}
       var key=jk(j);
       var isApplied=!!applied[key];
       var appliedDate=applied[key]||'';
-      var isNew=seen.indexOf(key)===-1;
+      var isNew=isNewThisRefresh(j);
 
       var tr=document.createElement('tr');
       if(isApplied) tr.className='applied-row';
@@ -720,9 +725,7 @@ tr.applied-row:hover td{background:#dcfce7 !important}
         allJobs=(data.jobs||[]).map(norm);
         lastUpdated=data.last_updated||'';
       }
-      var seenAtLoad=getLSArr(LS_SEEN);
-      newAtLoad={};
-      allJobs.forEach(function(j){ if(seenAtLoad.indexOf(jk(j))===-1) newAtLoad[jk(j)]=true; });
+      latestRefreshDate=(lastUpdated||'').slice(0,10);
       if(lastUpdated){
         var d=new Date(lastUpdated);
         document.getElementById('lastUpdated').textContent='Last updated: '+d.toLocaleDateString('en-US',{month:'long',day:'numeric',year:'numeric'});
