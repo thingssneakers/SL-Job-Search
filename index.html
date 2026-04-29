@@ -242,6 +242,10 @@ tr.applied-row:hover td{background:#dcfce7 !important}
           <option value="company">Company A–Z</option>
         </select>
         <label style="font-size:.78rem;color:#475569;display:inline-flex;align-items:center;gap:6px;cursor:pointer;margin-left:8px">
+          <input type="checkbox" id="newOnlyToggle" style="cursor:pointer">
+          <span>New only</span>
+        </label>
+        <label style="font-size:.78rem;color:#475569;display:inline-flex;align-items:center;gap:6px;cursor:pointer;margin-left:8px">
           <input type="checkbox" id="showExpiredToggle" style="cursor:pointer">
           <span>Show expired</span>
         </label>
@@ -331,6 +335,8 @@ tr.applied-row:hover td{background:#dcfce7 !important}
   var activeTier='all', activeLoc='all', activeSector='all', activeStage='all', activeCat='all';
   var searchTerm='', sortMode='tier';
   var showExpired=false;
+  var newOnly=false;
+  var newAtLoad={}; // snapshot of which job keys were unseen when the page loaded
 
   function jk(j){ return (j.title||j['Job Title']||'')+'|||'+(j.company||j['Company']||''); }
   function getLS(k){ try{return JSON.parse(localStorage.getItem(k))||{};} catch(e){return {};} }
@@ -546,6 +552,7 @@ tr.applied-row:hover td{background:#dcfce7 !important}
 
     var vis=allJobs.filter(function(j){ return deleted.indexOf(jk(j))===-1; });
     if(!showExpired)         vis=vis.filter(function(j){ return j.status!=='expired'; });
+    if(newOnly)              vis=vis.filter(function(j){ return newAtLoad[jk(j)]; });
     if(activeTier!=='all')   vis=vis.filter(function(j){ return j.tier===activeTier; });
     if(activeLoc!=='all')    vis=vis.filter(function(j){ return j.location_type===activeLoc; });
     if(activeSector!=='all') vis=vis.filter(function(j){ return j.sector===activeSector; });
@@ -699,6 +706,7 @@ tr.applied-row:hover td{background:#dcfce7 !important}
   document.getElementById('searchInput').addEventListener('input',function(e){ searchTerm=e.target.value; render(); });
   document.getElementById('sortSelect').addEventListener('change',function(e){ sortMode=e.target.value; render(); });
   document.getElementById('showExpiredToggle').addEventListener('change',function(e){ showExpired=e.target.checked; render(); });
+  document.getElementById('newOnlyToggle').addEventListener('change',function(e){ newOnly=e.target.checked; render(); });
 
   function markSeen(){ setLS(LS_SEEN, allJobs.map(jk)); }
 
@@ -712,6 +720,9 @@ tr.applied-row:hover td{background:#dcfce7 !important}
         allJobs=(data.jobs||[]).map(norm);
         lastUpdated=data.last_updated||'';
       }
+      var seenAtLoad=getLSArr(LS_SEEN);
+      newAtLoad={};
+      allJobs.forEach(function(j){ if(seenAtLoad.indexOf(jk(j))===-1) newAtLoad[jk(j)]=true; });
       if(lastUpdated){
         var d=new Date(lastUpdated);
         document.getElementById('lastUpdated').textContent='Last updated: '+d.toLocaleDateString('en-US',{month:'long',day:'numeric',year:'numeric'});
