@@ -241,6 +241,10 @@ tr.applied-row:hover td{background:#dcfce7 !important}
           <option value="date">Date Posted (newest first)</option>
           <option value="company">Company A–Z</option>
         </select>
+        <label style="font-size:.78rem;color:#475569;display:inline-flex;align-items:center;gap:6px;cursor:pointer;margin-left:8px">
+          <input type="checkbox" id="showExpiredToggle" style="cursor:pointer">
+          <span>Show expired</span>
+        </label>
         <span class="result-count" id="resultCount"></span>
       </div>
     </div>
@@ -326,6 +330,7 @@ tr.applied-row:hover td{background:#dcfce7 !important}
   var allJobs=[], lastUpdated='';
   var activeTier='all', activeLoc='all', activeSector='all', activeStage='all', activeCat='all';
   var searchTerm='', sortMode='tier';
+  var showExpired=false;
 
   function jk(j){ return (j.title||j['Job Title']||'')+'|||'+(j.company||j['Company']||''); }
   function getLS(k){ try{return JSON.parse(localStorage.getItem(k))||{};} catch(e){return {};} }
@@ -354,7 +359,9 @@ tr.applied-row:hover td{background:#dcfce7 !important}
       investor_signal:j.investor_signal || [],
       employee_count: j.employee_count || null,
       equity_upside_score: j.equity_upside_score || 0,
-      verified_at:    j.verified_at || ''
+      verified_at:    j.verified_at || '',
+      status:         j.status || 'active',
+      company_type:   j.company_type || ''
     };
   }
 
@@ -538,6 +545,7 @@ tr.applied-row:hover td{background:#dcfce7 !important}
     var seen=getLSArr(LS_SEEN);
 
     var vis=allJobs.filter(function(j){ return deleted.indexOf(jk(j))===-1; });
+    if(!showExpired)         vis=vis.filter(function(j){ return j.status!=='expired'; });
     if(activeTier!=='all')   vis=vis.filter(function(j){ return j.tier===activeTier; });
     if(activeLoc!=='all')    vis=vis.filter(function(j){ return j.location_type===activeLoc; });
     if(activeSector!=='all') vis=vis.filter(function(j){ return j.sector===activeSector; });
@@ -566,6 +574,8 @@ tr.applied-row:hover td{background:#dcfce7 !important}
 
       var tr=document.createElement('tr');
       if(isApplied) tr.className='applied-row';
+      var isExpired=j.status==='expired';
+      if(isExpired) tr.style.opacity='0.55';
 
       // Job Title
       var td1=document.createElement('td');
@@ -573,7 +583,8 @@ tr.applied-row:hover td{background:#dcfce7 !important}
       var titleHtml=url
         ?'<a class="job-link" href="'+esc(url)+'" target="_blank" rel="noopener">'+esc(j.title)+'</a>'
         :'<span style="font-weight:600">'+esc(j.title)+'</span>';
-      if(isNew) titleHtml+=' <span class="badge-new">NEW</span>';
+      if(isNew && !isExpired) titleHtml+=' <span class="badge-new">NEW</span>';
+      if(isExpired) titleHtml+=' <span class="badge-new" style="background:#94a3b8">EXPIRED</span>';
       // Tier badge
       var tierCfg=TIER_CONFIG[j.tier]||{label:j.tier||'?',cls:'tier-c'};
       titleHtml+='<br><span class="tier-badge '+tierCfg.cls+'" style="margin-top:4px;display:inline-flex">Tier '+esc(j.tier||'?')+'</span>';
@@ -687,6 +698,7 @@ tr.applied-row:hover td{background:#dcfce7 !important}
 
   document.getElementById('searchInput').addEventListener('input',function(e){ searchTerm=e.target.value; render(); });
   document.getElementById('sortSelect').addEventListener('change',function(e){ sortMode=e.target.value; render(); });
+  document.getElementById('showExpiredToggle').addEventListener('change',function(e){ showExpired=e.target.checked; render(); });
 
   function markSeen(){ setLS(LS_SEEN, allJobs.map(jk)); }
 
